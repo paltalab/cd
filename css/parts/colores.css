@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+@import url(https://fonts.googleapis.com/css?family=Sniglet:400,800);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+.fredo {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+}
+.sniglet {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 400;
+}
+.sniglet-bold {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+}
+.quick {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+}
+.quick-light {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+}
+.quick-bold {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+}

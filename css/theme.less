@@ -1,0 +1,178 @@
+@import "libs/prefixer";
+@import "libs/hover/hover";
+@import "libs/animate";
+@import "parts/colores";
+@import "parts/forms";
+
+/*******************************************************************************
+BASICOS
+*******************************************************************************/
+body{
+    background: @body-fondo;
+}
+a{
+    &:hover{
+        text-decoration: none; 
+    }
+}
+.central-content{
+    padding: 32px 0;
+    .titulo-pagina span{
+        background: @body-fondo;
+    }     
+}
+
+.titulo-seccion{
+    .fredo;
+    font-size: 30px;
+    color:@gris-oscuro;
+    text-transform: uppercase;
+}
+.titulo-pagina{
+    .fredo;
+    font-size: 35px;
+    text-align: center;
+    position:relative;
+    margin-bottom: 35px;
+    span{
+        position: relative;
+        z-index: 3;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    &:before,&:after{
+        height: 2px;
+        width:50%;
+        background:#FFF;
+        content:"";
+        position:absolute;
+        top:50%;
+        margin-top: -1px;
+
+    }
+    &:before{
+        left: 0;
+    }
+    &:after{
+        right:0;
+    }
+}
+.breadcrumbs{
+    text-align: center;
+    padding-bottom: 20px;
+    .quick;
+    font-size: 16px;
+    color:@texto-bread;
+    a{
+        color:@texto-bread;   
+        &:hover{
+            color:#FFF; 
+        }
+    }
+}
+
+.link-underline(@color){
+    .underline-from-center;
+    &:hover,&.active{
+        color:@color; 
+    }
+    &:before{
+        background: @color;         
+    }  
+}
+
+.texto-descripcion{
+    .quick;
+    font-size: 20px;
+    line-height: 23px;
+    color: @texto-claro;
+}
+
+
+/*******************************************************************************
+TOP  
+*******************************************************************************/
+@import "parts/top";
+/*******************************************************************************
+MENU  
+*******************************************************************************/
+@import "parts/menus";
+
+/*******************************************************************************
+HOME
+*******************************************************************************/
+@import "parts/banner";
+
+@import "parts/home";
+
+/*******************************************************************************
+FOOTER BOXES
+*******************************************************************************/
+@import "parts/footer";
+
+
+/*******************************************************************************
+LOGIN
+*******************************************************************************/
+.bglogin{
+    background: @fondo-violeta;
+    padding-bottom:120px;
+    .titulo-pagina{
+        &:before,&:after{
+            background:@body-fondo;           
+        }        
+        span{
+            background: @fondo-violeta;
+        }          
+    }
+}
+.login-content{
+    background: #FFF;
+    .border-radius(10px);
+    padding: 18px;
+}
+
+.inicio-session{
+    max-width: 255px;
+    margin:0 auto;
+    .quick;
+    font-size:13px;
+    a{
+        color:@button-border;
+        .link-underline(@button-border);
+        line-height: 20px;  
+    }
+    .basic-input;
+    .basic-button;
+    .basic-checbox;
+    .title{
+        .form-title;
+    }
+    .footer{
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+}
+
+.inicio-registro{
+    .inicio-session;
+}
+
+/*******************************************************************************
+CONTACTO
+*******************************************************************************/
+.contacto-content{
+    .login-content;
+    .basic-input;
+    .basic-button;
+    .basic-checbox; 
+    .basic-textarea;
+    .texto-descripcion{
+        padding: 20px 80px;
+    }
+    .form-contacto{
+        max-width: 520px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+}
