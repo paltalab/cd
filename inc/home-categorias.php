@@ -12,7 +12,7 @@
                     <div class="categoria-item-fix">
                         <div class="int">
                             <div class="categoria-item cat-verde">
-                                <a href="#">
+                                <a href="/categoria.php">
                                     <div class="top">Categorías</div>
                                     <div class="categoria-box-imagen">                            
                                         <img src="images/cat-banio.png" class="img-responsive" />
@@ -33,7 +33,7 @@
                     <div class="categoria-item-fix">
                         <div class="int">
                             <div class="categoria-item cat-naranja">
-                                <a href="#">
+                                <a href="/categoria.php">
                                 <div class="top">Categorías</div>
                                 <div class="categoria-box-imagen">                            
                                     <img src="images/cat-cocina.png" class="img-responsive" />
@@ -53,7 +53,7 @@
                         <div class="categoria-item-fix">
                             <div class="int">
                                 <div class="categoria-item cat-rojo">
-                                    <a href="#">
+                                    <a href="/categoria.php">
                                     <div class="top">Categorías</div>
                                     <div class="categoria-box-imagen">                            
                                         <img src="images/cat-clima.png" class="img-responsive" />
@@ -73,7 +73,7 @@
                         <div class="categoria-item-fix">
                             <div class="int">
                                 <div class="categoria-item cat-celeste">
-                                    <a href="#">
+                                    <a href="/categoria.php">
                                     <div class="top">Categorías</div>
                                     <div class="categoria-box-imagen">                            
                                         <img src="images/cat-deco.png" class="img-responsive" />
