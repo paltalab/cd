@@ -130,8 +130,23 @@ LOGIN
     background: #FFF;
     .border-radius(10px);
     padding: 18px;
+    position:relative;
 }
-
+.bglogin .login-content{
+    &:before{
+        position: absolute;
+        top: 0;
+        left:50%;
+        bottom:0;
+        height: 100%;
+        width: 1px;
+        background: @input-border;
+        content:"";
+        @media (max-width:992px){
+            display:none;
+        }         
+    }
+}    
 .inicio-session{
     max-width: 255px;
     margin:0 auto;
@@ -169,10 +184,85 @@ CONTACTO
     .basic-textarea;
     .texto-descripcion{
         padding: 20px 80px;
+        @media (max-width:992px){
+            padding: 20px;
+            font-size:13px;
+        }              
     }
     .form-contacto{
         max-width: 520px;
         margin: 0 auto;
         padding-bottom: 30px;
     }
+}
+
+/*******************************************************************************
+FAVORITOS
+*******************************************************************************/
+.favoritos-content{
+    .contacto-content;
+    .inner{
+        padding: 30px 50px;
+        @media (max-width:767px){
+            padding: 20px;
+            font-size:13px;
+        }         
+    }
+
+}
+.favorito-row{
+    padding-bottom:22px;
+    @media (max-width:767px){        
+        margin:5px 2%;
+        border:solid 1px @input-border;
+        .border-radius(10px);
+        padding:10px;
+        width:46%;
+        float:left;
+    }        
+    .fav-imagen{
+        img{
+            .border-radius(10px);
+            .glow;
+        }
+    }
+    .fav-precio{
+        padding-top:18px;
+        color:@gris-oscuro;
+        .sniglet-bold;
+        font-size: 23px;        
+    }
+    .fav-botones{
+        padding-top:18px;
+        a{
+            display: inline-block;
+            width: 37px;
+            height: 37px;       
+            margin:0 5px;
+        }
+        .favorito-mas{
+            .grow;
+            background: url(../images/icon-mas.png) no-repeat;
+        }
+        .favorito-menos{
+            .shrink;
+            background: url(../images/icon-cruz.png) no-repeat;            
+        }
+    }
+    .fav-descripcion{
+        padding-top:18px;
+        .titulo{
+            .quick-bold;
+            font-size: 27px;
+            color:@gris-oscuro;
+            @media (max-width:767px){        
+                font-size:16px;
+            }              
+        }
+        .precio{
+            .sniglet-bold;
+            font-size: 23px;
+            color:@texto-precio-claro;
+        }
+    }    
 }

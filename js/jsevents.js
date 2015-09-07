@@ -5,7 +5,7 @@ $(document).ready(function(){
   dropdownMenuMobile(); //Dropdown para Mobile
   activarSlider();      //activa slider en el home
   activarPlaceHolder();  //Funcionalidad del Placeholder   
-  activarDopdownCategorias(); //Dropdown de Categorias
+  activarDopdownCategorias(); //Dropdown de Categorias 
 });
 
 /*******************************************************************************
@@ -19,8 +19,7 @@ $(window).load(function() {
 REASIZE
 *******************************************************************************/
 $(window).resize(function(){
-  igualarTituloProducto();
-  activarResizeHomePage();
+  igualarTituloProducto(); 
 });
 
 
@@ -95,8 +94,12 @@ function activarSlider(){
     });
   }
 }
-
-
+/*******************************************************************************
+FAVORITOS
+*******************************************************************************/
+function removerFilaFavoritos(element){
+    $(element).parent(".fav-botones").parent(".favorito-row").fadeOut();
+}
 /*******************************************************************************
 MANEJO DE FORMULARIOS
 *******************************************************************************/

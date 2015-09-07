@@ -9878,6 +9878,22 @@ LOGIN
   border-radius: 10px;
   background-clip: padding-box;
   padding: 18px;
+  position: relative;
+}
+.bglogin .login-content:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  height: 100%;
+  width: 1px;
+  background: #e8e1d5;
+  content: "";
+}
+@media (max-width: 992px) {
+  .bglogin .login-content:before {
+    display: none;
+  }
 }
 .inicio-session {
   max-width: 255px;
@@ -10180,6 +10196,7 @@ CONTACTO
   border-radius: 10px;
   background-clip: padding-box;
   padding: 18px;
+  position: relative;
 }
 .contacto-content input[type="text"],
 .contacto-content input[type="email"],
@@ -10290,8 +10307,272 @@ CONTACTO
 .contacto-content .texto-descripcion {
   padding: 20px 80px;
 }
+@media (max-width: 992px) {
+  .contacto-content .texto-descripcion {
+    padding: 20px;
+    font-size: 13px;
+  }
+}
 .contacto-content .form-contacto {
   max-width: 520px;
   margin: 0 auto;
   padding-bottom: 30px;
+}
+/*******************************************************************************
+FAVORITOS
+*******************************************************************************/
+.favoritos-content {
+  background: #FFF;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  padding: 18px;
+  position: relative;
+}
+.favoritos-content input[type="text"],
+.favoritos-content input[type="email"],
+.favoritos-content input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.favoritos-content input[type="text"]::-webkit-input-placeholder,
+.favoritos-content input[type="email"]::-webkit-input-placeholder,
+.favoritos-content input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.favoritos-content input[type="text"]:-moz-placeholder,
+.favoritos-content input[type="email"]:-moz-placeholder,
+.favoritos-content input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.favoritos-content input[type="text"]::-moz-placeholder,
+.favoritos-content input[type="email"]::-moz-placeholder,
+.favoritos-content input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.favoritos-content input[type="text"]:-ms-input-placeholder,
+.favoritos-content input[type="email"]:-ms-input-placeholder,
+.favoritos-content input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.favoritos-content button {
+  height: 44px;
+  line-height: 32px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.favoritos-content button:hover,
+.favoritos-content button:focus,
+.favoritos-content button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.favoritos-content button:hover {
+  color: #816fca;
+}
+.favoritos-content .checkbox {
+  font-size: 11px;
+}
+.favoritos-content .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.favoritos-content textarea {
+  height: 160px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.favoritos-content textarea::-webkit-input-placeholder {
+  color: #e8e1d5;
+}
+.favoritos-content textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e8e1d5;
+}
+.favoritos-content textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e8e1d5;
+}
+.favoritos-content textarea:-ms-input-placeholder {
+  color: #e8e1d5;
+}
+.favoritos-content .texto-descripcion {
+  padding: 20px 80px;
+}
+@media (max-width: 992px) {
+  .favoritos-content .texto-descripcion {
+    padding: 20px;
+    font-size: 13px;
+  }
+}
+.favoritos-content .form-contacto {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.favoritos-content .inner {
+  padding: 30px 50px;
+}
+@media (max-width: 767px) {
+  .favoritos-content .inner {
+    padding: 20px;
+    font-size: 13px;
+  }
+}
+.favorito-row {
+  padding-bottom: 22px;
+}
+@media (max-width: 767px) {
+  .favorito-row {
+    margin: 5px 2%;
+    border: solid 1px #e8e1d5;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+    padding: 10px;
+    width: 46%;
+    float: left;
+  }
+}
+.favorito-row .fav-imagen img {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.favorito-row .fav-imagen img:hover,
+.favorito-row .fav-imagen img:focus,
+.favorito-row .fav-imagen img:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.favorito-row .fav-precio {
+  padding-top: 18px;
+  color: #45413d;
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+}
+.favorito-row .fav-botones {
+  padding-top: 18px;
+}
+.favorito-row .fav-botones a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  margin: 0 5px;
+}
+.favorito-row .fav-botones .favorito-mas {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background: url(../images/icon-mas.png) no-repeat;
+}
+.favorito-row .fav-botones .favorito-mas:hover,
+.favorito-row .fav-botones .favorito-mas:focus,
+.favorito-row .fav-botones .favorito-mas:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.favorito-row .fav-botones .favorito-menos {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background: url(../images/icon-cruz.png) no-repeat;
+}
+.favorito-row .fav-botones .favorito-menos:hover,
+.favorito-row .fav-botones .favorito-menos:focus,
+.favorito-row .fav-botones .favorito-menos:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.favorito-row .fav-descripcion {
+  padding-top: 18px;
+}
+.favorito-row .fav-descripcion .titulo {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  color: #45413d;
+}
+@media (max-width: 767px) {
+  .favorito-row .fav-descripcion .titulo {
+    font-size: 16px;
+  }
+}
+.favorito-row .fav-descripcion .precio {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  color: #bdc3c7;
 }

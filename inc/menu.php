@@ -24,8 +24,8 @@
             </div>
             <div class="col-xs-8 col-sm-7 col-md-5 ">
                 <div class="cuenta pull-left">
-                    <a href="/login.php" class="link-usuario"></a>
-                    <a href="#" class="link-heart"></a>
+                    <a href="./login.php" class="link-usuario"></a>
+                    <a href="./favoritos.php" class="link-heart"></a>
                 </div>
                 <div class="carrito pull-right">
                     <span class="precio">$9999.99</span>
