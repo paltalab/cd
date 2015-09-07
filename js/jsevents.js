@@ -98,7 +98,22 @@ function activarSlider(){
 FAVORITOS
 *******************************************************************************/
 function removerFilaFavoritos(element){
-    $(element).parent(".fav-botones").parent(".favorito-row").fadeOut();
+    $(element).parent(".fav-botones").parent(".favorito-row").fadeOut().remove(); 
+}
+/*******************************************************************************
+CARRITO
+*******************************************************************************/
+function inputCantidadAgregar(agrega,element){
+    var caja=$(element).parent(".input-cantidad");
+    var valor=$('input',caja).val();
+    if(agrega){
+        $('input',caja).val(parseInt(valor)+parseInt(1));
+    }else if(valor>1){
+        $('input',caja).val(parseInt(valor)-parseInt(1));
+    }
+}
+function removerFilaCarrito(element){
+    $(element).parent(".fav-botones").parent(".carrito-row").fadeOut().remove(); 
 }
 /*******************************************************************************
 MANEJO DE FORMULARIOS

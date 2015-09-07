@@ -85,5 +85,69 @@ label.error{
         &:hover{
             color:@button-border;         
         }
+        &.suave-button{
+            .suave-button;
+        }
+        &.chico-button{
+            .chico-button;
+        }
+        &.invertido-button{
+            .invertido-button;
+        }
     }
+    
 } 
+.suave-button{
+        .chico-button;
+        border:solid 2px @input-border;           
+        border:solid 2px @input-border;
+        color:@input-border;   
+        &:hover{
+            color:@button-border;         
+        }
+} 
+.invertido-button{
+        .chico-button;
+        background: @button-border;
+        border:solid 2px #FFF;
+        color:#FFF;
+        .glow;     
+        &:hover{
+            color:#FFF;        
+        }              
+} 
+.chico-button{
+        height:40px;
+        line-height: 24px;       
+        font-size:15px;                
+} 
+
+
+.input-cantidad{
+    max-width: 80px;
+    margin: 0 auto;
+    position:relative;    
+    input{        
+        text-align: center;
+        padding-left: 22px;
+        padding-right: 22px;
+        font-size: 15px !important;
+    }
+    .mas,.menos{
+        text-decoration: none;
+        position:absolute;
+        top:0;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        width:22px;
+        text-align: center;
+        color:@gris-oscuro;
+    }
+    .mas{
+        right:0
+    }
+    .menos{
+        left:0;
+    } 
+}

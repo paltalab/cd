@@ -199,70 +199,70 @@ CONTACTO
 /*******************************************************************************
 FAVORITOS
 *******************************************************************************/
-.favoritos-content{
-    .contacto-content;
-    .inner{
-        padding: 30px 50px;
-        @media (max-width:767px){
-            padding: 20px;
-            font-size:13px;
-        }         
-    }
+@import "parts/favoritos";
 
+/*******************************************************************************
+CARRITO
+*******************************************************************************/
+.carrito-content{
+    .favoritos-content;
 }
-.favorito-row{
-    padding-bottom:22px;
+.carrito-row{
+    .favorito-row;
+    .fav-cantidad{
+        padding-top:18px;  
+        @media (max-width:992px){        
+            padding-top:5px;
+        }     
+    }
+}
+.carrito-cuenta{
+    input.cupon{
+        width: 215px;
+        display: inline-block;
+        font-size: 15px;
+    }
+    .right{
+        text-align:right;        
+        button{
+            margin-left: 25px;
+        }
+    }
+    .left{
+        text-align:left; 
+        button{
+            margin-right: 25px;
+        }   
+    }
     @media (max-width:767px){        
-        margin:5px 2%;
-        border:solid 1px @input-border;
-        .border-radius(10px);
-        padding:10px;
-        width:46%;
-        float:left;
-    }        
-    .fav-imagen{
-        img{
-            .border-radius(10px);
-            .glow;
+        .right,.left{
+            text-align: right;
+            padding: 5px 0;
         }
+    } 
+}
+
+.carrito-total-detalle{
+    padding: 20px 0;
+    text-align: right;
+    .carrito-total-descripcion{
+        .fredo;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 4px 0;
     }
-    .fav-precio{
-        padding-top:18px;
-        color:@gris-oscuro;
+    .carrito-total-valor{
         .sniglet-bold;
-        font-size: 23px;        
+        font-size: 20px;
+        padding: 4px 0;
     }
-    .fav-botones{
-        padding-top:18px;
-        a{
-            display: inline-block;
-            width: 37px;
-            height: 37px;       
-            margin:0 5px;
-        }
-        .favorito-mas{
-            .grow;
-            background: url(../images/icon-mas.png) no-repeat;
-        }
-        .favorito-menos{
-            .shrink;
-            background: url(../images/icon-cruz.png) no-repeat;            
+    .radio{
+        margin-top:0;
+        label{
+            .quick;
+            strong{
+              .sniglet-bold;  
+            }
         }
     }
-    .fav-descripcion{
-        padding-top:18px;
-        .titulo{
-            .quick-bold;
-            font-size: 27px;
-            color:@gris-oscuro;
-            @media (max-width:767px){        
-                font-size:16px;
-            }              
-        }
-        .precio{
-            .sniglet-bold;
-            font-size: 23px;
-            color:@texto-precio-claro;
-        }
-    }    
 }
