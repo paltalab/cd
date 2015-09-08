@@ -38,6 +38,7 @@
                         <a href="#" class="left"><span><</span>Anterior</a>
                         <span class="span-central">1/5</span>
                         <a href="#" class="right">Siguiente<span>></span></a>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>

@@ -37,8 +37,9 @@ a{
     span{
         position: relative;
         z-index: 3;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 10%;
+        padding-right: 10%;
+        max-width: 80%
     }
     &:before,&:after{
         height: 2px;
@@ -48,7 +49,6 @@ a{
         position:absolute;
         top:50%;
         margin-top: -1px;
-
     }
     &:before{
         left: 0;
@@ -56,6 +56,18 @@ a{
     &:after{
         right:0;
     }
+
+    @media (max-width:767px){
+        &:before,&:after{display:none;}
+        font-size:25px;
+        text-align:center;
+        span{
+            padding-left: 2%;
+            padding-right: 2%;            
+            display:block;
+            margin:0 auto;
+        }
+    }      
 }
 .breadcrumbs{
     text-align: center;
@@ -261,7 +273,7 @@ CARRITO
         label{
             .quick;
             strong{
-              .sniglet-bold;  
+                .sniglet-bold;  
             }
         }
     }
@@ -321,6 +333,9 @@ CATEGORIA
         color:#FFF;
         .fredo;
         font-size: 23px;
+        @media (max-width:767px){
+            font-size:15px;
+        }        
         a{
             .link-underline(#FFF);
             &.right{
@@ -335,10 +350,14 @@ CATEGORIA
                     margin-right: 30px;
                 }
             }
-             color:#FFF;
-             span{
-                 
-             }
+            color:#FFF;
+            span{
+
+            }
         }
     }
 }
+
+/*******************************************************************************
+PRODUCTO
+*******************************************************************************/
