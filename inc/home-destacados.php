@@ -20,7 +20,9 @@
                             </div>
                             <div class="destacado-box-descripcion">
                                 <div class="titulo">
+                                    <a href="/producto.php">
                                     Hay - About a Lounge Chair AAL 93
+                                    </a>
                                 </div>
                                 <div class="precio">$ 659.55</div>
                             </div>
