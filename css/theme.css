@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 @import url(https://fonts.googleapis.com/css?family=Sniglet:400,800);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+@import url(parts/star-rating.min.css);
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2
@@ -9434,7 +9435,7 @@ HOME
   right: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/fix.ie.png);
+  background: url(../images/fix-ie.png);
   -webkit-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;
   background-clip: padding-box;
@@ -11492,3 +11493,128 @@ CATEGORIA
 /*******************************************************************************
 PRODUCTO
 *******************************************************************************/
+/* jssor slider arrow navigator skin 05 css */
+/*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        */
+.jssora05l,
+.jssora05r {
+  display: block;
+  position: absolute;
+  /* size of arrow element */
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url(../images/a17.png) no-repeat;
+  overflow: hidden;
+}
+.jssora05l {
+  background-position: -10px -40px;
+}
+.jssora05r {
+  background-position: -70px -40px;
+}
+.jssora05l:hover {
+  background-position: -130px -40px;
+}
+.jssora05r:hover {
+  background-position: -190px -40px;
+}
+.jssora05l.jssora05ldn {
+  background-position: -250px -40px;
+}
+.jssora05r.jssora05rdn {
+  background-position: -310px -40px;
+}
+/* jssor slider thumbnail navigator skin 02 css */
+/*
+        .jssort02 .p            (normal)
+        .jssort02 .p:hover      (normal mouseover)
+        .jssort02 .p.pav        (active)
+        .jssort02 .p.pdn        (mousedown)
+        */
+.jssort02 {
+  position: absolute;
+  /* size of thumbnail navigator container */
+  width: 122px;
+  height: 550px;
+}
+.jssort02 .p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 120px;
+}
+.jssort02 .t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.jssort02 .w {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.jssort02 .c {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 140px;
+  background: url(../images/t01.png) -800px -800px no-repeat;
+  _background: none;
+}
+.jssort02 .pav .c {
+  top: 0px;
+  _top: 0px;
+  left: 0px;
+  _left: 0px;
+  width: 108px;
+  height: 118px;
+  border: #000 0px solid;
+  _border: #fff 2px solid;
+  background-position: 50% 50%;
+}
+.jssort02 .p:hover .c {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 120px;
+  border: #fff 2px solid;
+  background-position: 50% 50%;
+}
+.jssort02 .p.pdn .c {
+  background-position: 50% 50%;
+  width: 108px;
+  height: 118px;
+  border: #000 2px solid;
+}
+.producto-detalle-top {
+  background: #FFF;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  background-clip: padding-box;
+}
+.producto-detalle-top .imgbig {
+  -webkit-border-radius: 10px 0 0 0;
+  border-radius: 10px 0 0 0;
+  background-clip: padding-box;
+}
+.producto-detalle-bottom {
+  background: #FFF;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  background-clip: padding-box;
+  padding: 25px 0 50px 0;
+}

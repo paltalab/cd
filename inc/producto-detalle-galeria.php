@@ -57,166 +57,50 @@
 <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 740px; height: 550px; overflow: hidden;">
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 580px; height: 550px; overflow: hidden;">
         <div>
-            <img u="image" src="images/galeria/img1.png" />
+            <img u="image" src="images/galeria/img1.png" class="imgbig"/>
             <img u="thumb" src="images/galeria/t1.png" />
         </div>
         <div>
-            <img u="image" src="images/galeria/img2.png" />
+            <img u="image" src="images/galeria/img2.png" class="imgbig" />
             <img u="thumb" src="images/galeria/t2.png" />
         </div>
         <div>
-            <img u="image" src="images/galeria/img3.png" />
+            <img u="image" src="images/galeria/img3.png" class="imgbig" />
             <img u="thumb" src="images/galeria/t3.png" />
         </div>
         <div>
-            <img u="image" src="images/galeria/img4.png" />
+            <img u="image" src="images/galeria/img4.png" class="imgbig" />
             <img u="thumb" src="images/galeria/t4.png" />
         </div>
         <div>
-            <img u="image" src="images/galeria/img5.png" />
+            <img u="image" src="images/galeria/img5.png" class="imgbig" />
             <img u="thumb" src="images/galeria/t5.png" />
         </div>
         <div>
-            <img u="image" src="images/galeria/img6.png" />
+            <img u="image" src="images/galeria/img6.png" class="imgbig" />
             <img u="thumb" src="images/galeria/t6.png" />
         </div>   
     </div>
 
-    <!--#region Arrow Navigator Skin Begin -->
-    <style>
-        /* jssor slider arrow navigator skin 05 css */
-        /*
-        .jssora05l                  (normal)
-        .jssora05r                  (normal)
-        .jssora05l:hover            (normal mouseover)
-        .jssora05r:hover            (normal mouseover)
-        .jssora05l.jssora05ldn      (mousedown)
-        .jssora05r.jssora05rdn      (mousedown)
-        */
-        .jssora05l, .jssora05r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 40px;
-            height: 40px;
-            cursor: pointer;
-            background: url(../img/a17.png) no-repeat;
-            overflow: hidden;
-        }
-        .jssora05l { background-position: -10px -40px; }
-        .jssora05r { background-position: -70px -40px; }
-        .jssora05l:hover { background-position: -130px -40px; }
-        .jssora05r:hover { background-position: -190px -40px; }
-        .jssora05l.jssora05ldn { background-position: -250px -40px; }
-        .jssora05r.jssora05rdn { background-position: -310px -40px; }
-    </style>
-    <!-- Arrow Left -->
-    <span u="arrowleft" class="jssora05l" style="top: 158px; left: 0px;">
-    </span>
-    <!-- Arrow Right -->
-    <span u="arrowright" class="jssora05r" style="top: 158px; right: 400px">
-    </span>
-    <!--#endregion Arrow Navigator Skin End -->
-    <!--#region Thumbnail Navigator Skin Begin -->
-    <!-- Help: http://www.jssor.com/development/slider-with-thumbnail-navigator-jquery.html -->
-    <style>
-        /* jssor slider thumbnail navigator skin 02 css */
-        /*
-        .jssort02 .p            (normal)
-        .jssort02 .p:hover      (normal mouseover)
-        .jssort02 .p.pav        (active)
-        .jssort02 .p.pdn        (mousedown)
-        */
+    
+    <span u="arrowleft" class="jssora05l" style="top: 158px; left: 10px;"></span>    
+    <span u="arrowright" class="jssora05r" style="top: 158px; left: 530px"></span>
 
-        .jssort02 {
-            position: absolute;
-            /* size of thumbnail navigator container */
-            width: 120px;
-            height: 550px;
-        }
 
-        .jssort02 .p {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 99px;
-            height: 66px;
-        }
 
-        .jssort02 .t {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        .jssort02 .w {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100%;
-        }
-
-        .jssort02 .c {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 95px;
-            height: 62px;
-            border: #000 2px solid;
-            box-sizing: content-box;
-            background: url(../img/t01.png) -800px -800px no-repeat;
-            _background: none;
-        }
-
-        .jssort02 .pav .c {
-            top: 2px;
-            _top: 0px;
-            left: 2px;
-            _left: 0px;
-            width: 95px;
-            height: 62px;
-            border: #000 0px solid;
-            _border: #fff 2px solid;
-            background-position: 50% 50%;
-        }
-
-        .jssort02 .p:hover .c {
-            top: 0px;
-            left: 0px;
-            width: 97px;
-            height: 64px;
-            border: #fff 1px solid;
-            background-position: 50% 50%;
-        }
-
-        .jssort02 .p.pdn .c {
-            background-position: 50% 50%;
-            width: 95px;
-            height: 62px;
-            border: #000 2px solid;
-        }
-
-        * html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {
-            /* ie quirks mode adjust */
-            width /**/: 99px;
-            height /**/: 66px;
-        }
-    </style>
-
-    <!-- thumbnail navigator container -->
     <div u="thumbnavigator" class="jssort02" style="right: 0px; bottom: 0px;">
-        <!-- Thumbnail Item Skin Begin -->
         <div u="slides" style="cursor: default;">
             <div u="prototype" class="p">
                 <div class=w><div u="thumbnailtemplate" class="t"></div></div>
                 <div class=c></div>
             </div>
         </div>
-        <!-- Thumbnail Item Skin End -->
     </div>
 </div>
-<!-- Jssor Slider End -->
+<style>
+        * html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {
+            /* ie quirks mode adjust */
+            width /**/: 99px;
+            height /**/: 66px;
+        }    
+</style>

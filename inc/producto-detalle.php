@@ -9,7 +9,7 @@
                                 <?php include('inc/producto-detalle-galeria.php'); ?>
                             </div>
                         </div>
-                        <div class="dol-md-5">
+                        <div class="col-md-5">
                             <div class="producto-detalle-top">
                                 <?php include('inc/producto-detalle-top.php'); ?>
                             </div>    
