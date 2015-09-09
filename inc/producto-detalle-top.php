@@ -47,17 +47,13 @@
     <div class="row">
         <div class="col-md-6">
             <div class="input-color">
-            <select id="colorselector">
-                <option value="" data-color=""  selected="selected"></option>
-                <option value="106" data-color="#A0522D">sienna</option>
-                <option value="47" data-color="#CD5C5C">indianred</option>
-                <option value="87" data-color="#FF4500">orangered</option>
-                ...
-                <option value="15" data-color="#DC143C">crimson</option>
-                <option value="24" data-color="#FF8C00">darkorange</option>
-                <option value="78" data-color="#C71585">mediumvioletred</option>
-            </select>
-            <span id="colorTitle">Seleccione</span>
+                <select id="colorselector" name="color">
+                    <option value="1" data-color="#FFF" >Blanco</option>
+                    <option value="106" data-color="#A0522D">Marron</option>
+                    <option value="47" data-color="#c10d2b" selected="selected">Rojo</option>
+                    <option value="87" data-color="#FF4500">Naranja</option>
+                </select>
+                <span id="colorTitle">Rojo</span>
             </div>
             <script>
                 $('#colorselector').colorselector({
@@ -65,17 +61,7 @@
                         $("#colorTitle").html(title);
                     }
                 });
-            </script>            
-
-
-            <div class="form-group">
-                <label for="exampleInputEmail1">Material</label>
-                <select class="form-control " name="material" id="material">
-                    <option value="Material 1"><i></i>Material 1dada</option>
-                    <option value="Material 2">Material 2</option>
-                    <option value="Material 3">Material 3</option>
-                </select>
-            </div>   
+            </script>              
         </div>
         <div class="col-md-6">
             <div class="input-cantidad">
