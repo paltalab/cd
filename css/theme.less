@@ -372,10 +372,36 @@ PRODUCTO
     }
     
     .producto-detalle-top-precio{
-        
+        padding: 30px 0 15px 0;
+        text-align: center;
+        .sniglet-bold;
+        font-size: 50px;
+        color:@texto-bread;
+        max-width:380px;
+        margin:0 auto;        
     }
     .producto-detalle-top-rating{
-        
+        padding:15px 0;
+        max-width:380px;
+        margin:0 auto;
+        text-align:center;
+        .star-rating.rating-xs.rating-disabled{
+            font-size:30px;
+            line-height: 30px;
+            cursor:default;
+            display:inline-block;
+            .rating-stars:before{
+            text-shadow: none;    
+            }
+
+        }       
+        .producto-rating{
+             display:inline-block;
+            line-height: 34px;
+            .quick-bold;
+            font-size: 24px;
+            padding-left: 4px;
+        }
     }
     .producto-detalle-top-pedir{
         
@@ -386,4 +412,35 @@ PRODUCTO
     background:#FFF;
     .border-radius(0 0 10px 10px);
     padding: 25px 0 50px 0;
+}
+
+.input-color{
+    border:solid 1px @input-border;
+    .border-radius(10px); 
+    max-width: 113px;
+    position:relative;
+    #colorTitle{
+        position: absolute;
+        left:33px; 
+        top:7px;
+        max-width:60px;
+        overflow: hidden;
+    }
+    a.dropdown-toggle{
+        display:block;
+        padding: 7px;
+        position: relative;
+        z-index: 9;
+        &:after{
+            position:absolute;
+            font-family: FontAwesome;
+            top:3px;
+            right:5px;
+            content: "\f0dd";
+            color:@input-border;
+        }
+    }
+    .btn-colorselector,.color-btn{
+        border:solid 1px @input-border;
+    }
 }

@@ -2,7 +2,9 @@
     $2999.00
 </div>
 <div class="producto-detalle-top-rating">
-    <input id="rating" name="rating" class="rating" data-min="0" data-max="5" data-step="1">
+    <input id="rating" name="rating" class="rating" data-min="0" data-max="5" data-step="0.1" value="3.9" data-readonly="true" data-symbol="&#xf006;&nbsp;" data-glyphicon="false"  data-rating-class="rating-fa" >
+    <div class="producto-rating">3.9/5.0</div>
+    <div class="clearfix"></div>
     <script>
         $("#rating").rating({
             stars: 5,
@@ -12,7 +14,7 @@
             disabled: false,
             readonly: false,
             rtl: false,
-            size: 'sm',
+            size: 'xs',
             showClear: false,
             showCaption: false,
             defaultCaption: '{rating}',
@@ -52,6 +54,7 @@
                     <option value="106" data-color="#A0522D">Marron</option>
                     <option value="47" data-color="#c10d2b" selected="selected">Rojo</option>
                     <option value="87" data-color="#FF4500">Naranja</option>
+                    <option value="99" data-color="#fffb85">Amarillo</option>
                 </select>
                 <span id="colorTitle">Rojo</span>
             </div>
