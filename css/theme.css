@@ -11722,4 +11722,15 @@ PRODUCTO
 .input-color .btn-colorselector,
 .input-color .color-btn {
   border: solid 1px #e8e1d5;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.content-agregar-favoritos {
+  padding: 25px 0 12px 0;
+  text-align: center;
+}
+.content-agregar-favoritos button {
+  margin: 0 auto;
+  background: #816ec9;
 }
