@@ -13123,3 +13123,346 @@ MIS TICKETS
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+/*******************************************************************************
+FAQ
+*******************************************************************************/
+.faq-content {
+  background: #FFF;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  padding: 18px;
+  position: relative;
+}
+.faq-content input[type="text"],
+.faq-content input[type="email"],
+.faq-content input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.faq-content input[type="text"]::-webkit-input-placeholder,
+.faq-content input[type="email"]::-webkit-input-placeholder,
+.faq-content input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.faq-content input[type="text"]:-moz-placeholder,
+.faq-content input[type="email"]:-moz-placeholder,
+.faq-content input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.faq-content input[type="text"]::-moz-placeholder,
+.faq-content input[type="email"]::-moz-placeholder,
+.faq-content input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.faq-content input[type="text"]:-ms-input-placeholder,
+.faq-content input[type="email"]:-ms-input-placeholder,
+.faq-content input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.faq-content button {
+  height: 44px;
+  line-height: 24px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.faq-content button:hover,
+.faq-content button:focus,
+.faq-content button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.faq-content button:hover {
+  color: #816fca;
+}
+.faq-content button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.faq-content button.suave-button:hover {
+  color: #816fca;
+}
+.faq-content button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.faq-content button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.faq-content button.invertido-button:hover,
+.faq-content button.invertido-button:focus,
+.faq-content button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.faq-content button.invertido-button:hover {
+  color: #FFF;
+}
+.faq-content .checkbox {
+  font-size: 11px;
+}
+.faq-content .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.faq-content textarea {
+  height: 160px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.faq-content textarea::-webkit-input-placeholder {
+  color: #e8e1d5;
+}
+.faq-content textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e8e1d5;
+}
+.faq-content textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e8e1d5;
+}
+.faq-content textarea:-ms-input-placeholder {
+  color: #e8e1d5;
+}
+.faq-content .texto-descripcion {
+  padding: 20px 80px;
+}
+@media (max-width: 992px) {
+  .faq-content .texto-descripcion {
+    padding: 20px;
+    font-size: 13px;
+  }
+}
+.faq-content .form-contacto {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.faq-row {
+  padding-bottom: 22px;
+}
+@media (max-width: 767px) {
+  .faq-row {
+    margin: 5px 2%;
+    border: solid 1px #e8e1d5;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+    padding: 10px;
+    width: 46%;
+    float: left;
+  }
+}
+.faq-row .fav-imagen img {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.faq-row .fav-imagen img:hover,
+.faq-row .fav-imagen img:focus,
+.faq-row .fav-imagen img:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.faq-row .fav-precio {
+  padding-top: 18px;
+  color: #45413d;
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+}
+@media (max-width: 992px) {
+  .faq-row .fav-precio {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+}
+.faq-row .fav-botones {
+  padding-top: 18px;
+}
+@media (max-width: 992px) {
+  .faq-row .fav-botones {
+    padding-top: 5px;
+  }
+}
+.faq-row .fav-botones a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  margin: 0 5px;
+}
+.faq-row .fav-botones .favorito-mas {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background: url(../images/icon-mas.png) no-repeat;
+}
+.faq-row .fav-botones .favorito-mas:hover,
+.faq-row .fav-botones .favorito-mas:focus,
+.faq-row .fav-botones .favorito-mas:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.faq-row .fav-botones .favorito-menos {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background: url(../images/icon-cruz.png) no-repeat;
+}
+.faq-row .fav-botones .favorito-menos:hover,
+.faq-row .fav-botones .favorito-menos:focus,
+.faq-row .fav-botones .favorito-menos:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.faq-row .fav-descripcion {
+  padding-top: 18px;
+}
+@media (max-width: 992px) {
+  .faq-row .fav-descripcion {
+    padding-top: 5px;
+  }
+}
+.faq-row .fav-descripcion .titulo {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  color: #45413d;
+}
+@media (max-width: 992px) {
+  .faq-row .fav-descripcion .titulo {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .faq-row .fav-descripcion .titulo {
+    font-size: 16px;
+  }
+}
+.faq-row .fav-descripcion .precio {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  color: #bdc3c7;
+}
+@media (max-width: 992px) {
+  .faq-row .fav-descripcion .precio {
+    font-family: 'Sniglet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+  }
+}
+.faq-row .fav-cantidad {
+  padding-top: 18px;
+}
+@media (max-width: 992px) {
+  .faq-row .fav-cantidad {
+    padding-top: 5px;
+  }
+}
+.faq-row-respuesta {
+  background: #f0ecea;
+  padding: 10px 18px;
+  margin-right: -18px;
+  margin-left: -18px;
+}
+.faq-row-respuesta .fix {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}

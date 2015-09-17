@@ -29,10 +29,8 @@
                             <div class="col-sm-1 fav-imagen">                                
                                     <img class="img-responsive" src="images/mi-cuenta-tickets.png"/>                                
                             </div>
-                            <div class="col-sm-5  fav-descripcion">
+                            <div class="col-sm-6  fav-descripcion">
                                 <div class="titulo">#0021546 JUN-15-15</div>                                
-                            </div>
-                            <div class="col-sm-2 fav-cantidad">
                             </div>
                             <div class="col-sm-2 fav-precio">
                                 $ 659.55
@@ -40,6 +38,7 @@
                             <div class="col-sm-1 fav-botones">        
                                 <a href="javascript:void(0);" class="favorito-mas"/></a>
                             </div>
+                            <div class="col-sm-1"></div>
                         </div>
                         <?php endfor;?>
                         <div class="clearfix"></div>
