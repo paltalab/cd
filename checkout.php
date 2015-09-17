@@ -43,6 +43,24 @@
                                 </div>
                              </div>   
                         </div>
+                        <div class="checkout-content-medios-pagos">
+                            <div class="title">MEDIO DE PAGO</div>
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    <?php include('inc/checkout-pagos.php'); ?> 
+                                </div>
+                             </div>   
+                        </div>
+                        <div class="checkout-content-medios-pagos">
+                            <div class="title">MEDIO DE PAGO</div>
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    <?php include('inc/checkout-detalle.php'); ?> 
+                                </div>
+                             </div>   
+                        </div>                        
+
+
 
                     </div>
                 </div> 

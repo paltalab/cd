@@ -7,6 +7,7 @@ $(document).ready(function(){
   activarPlaceHolder();  //Funcionalidad del Placeholder   
   activarDopdownCategorias(); //Dropdown de Categorias 
   activarMasMenosFaq();   // + - en FAQ
+  activarMasMenosFormasDePago();   // + - en FAQ
 });
 
 /*******************************************************************************
@@ -77,7 +78,16 @@ function activarMasMenosFaq(){
             $("#btn"+$(this).attr("id")).removeClass("abierto");
         });    
 }
- 
+function activarMasMenosFormasDePago(){
+        $('.checkout-pagos-detalle').on('show.bs.collapse', function () {            
+           // $(".checkout-pagos-row input").removeAttr("checked");
+            $("input[value='"+$(this).attr("ref")+"']").prop("checked",true);
+            $("#btn"+$(this).attr("id")).addClass("abierto"); 
+        });
+        $('.checkout-pagos-detalle').on('hide.bs.collapse', function () {
+           // $("#btn"+$(this).attr("id")).removeClass("abierto").removeAttr("checked");
+        });  
+} 
 
 /*******************************************************************************
 SLIDER
