@@ -22,6 +22,7 @@
         <script src="js/bootstrap-colorselector.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.1.2/jquery.placeholder.js"></script>        
         <script src="js/jquery.validate.min.js"></script>
+        <script src="js/additional-methods.min.js"></script>
         <script src="js/messages_es.min.js"></script>
 
 

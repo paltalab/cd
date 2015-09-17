@@ -1,20 +1,20 @@
-<div class="cambiar-password">
+<div class="cambiar-direccion">
     <div class="title">MI DIRECCIÓN</div>    
     <form id="form-direccion" class="form-inline">
         <div class="form-group">
             <label for="direccion1">Dirección 1:</label>
-            <input type="text" class="form-control" id="direccion1" value="Virrey Loreto 1254, 3ºA">
+            <input type="text" name="direccion" class="form-control" id="direccion" value="Virrey Loreto 1254, 3ºA" required>
         </div>  
         <div class="form-group">
             <label for="direccion2">Dirección 2:</label>
-            <input type="text" class="form-control" id="direccion2" value="-">
+            <input type="text" name="direcciondos" class="form-control" id="direcciondos" value="-">
         </div>  
         <div class="form-group">   
             <label for="pais">País:</label>
-            <input type="text" class="form-control" id="pais" value="Argentina"required>
+            <input type="text" name="pais" class="form-control" id="pais" value="Argentina" required>
         </div>                 
         <div class="form-group">
-            <label for="exampleInputEmail1">Provincia</label>
+            <label for="exampleInputEmail1">Provincia:</label>
             <select class="form-control " name="provincia" id="provincia"  required>
                 <option value="Buenos Aires">Buenos Aires</option>
                 <option value="Buenos Aires Capital">Buenos Aires Capital</option>
@@ -44,24 +44,47 @@
             <small></small>
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">Ciudad</label>
-            <input type="text" class="form-control" id="inputCiudad"  required>
+            <label for="exampleInputEmail1">Localidad:</label>
+            <input type="text" name="localidad" class="form-control" id="localidad" value="Belgrano" required>
             <small></small>
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">Código Postal</label>
-            <input type="text" class="form-control" id="inputCp"  required>
+            <label for="exampleInputEmail1">Código Postal:</label>
+            <input type="text" name="inputCp" class="form-control" id="inputCp" value="1234" required>
             <small></small>
         </div> 
         <div class="form-group">
-            <label for="exampleInputEmail1">Teléfono de contacto</label>
-            <input type="text" class="form-control" id="inputTelefono"  required>
-            <small>Estará impreso en la etiqueta de envío por si el correo<br/> 
-                necesita contactarse</small>
+            <label for="exampleInputEmail1">Teléfono:</label>
+            <input type="text" class="form-control" id="inputTelefono" value="01142568540"  required>            
         </div>
-        <button type="submit" class="btn form-control">Registrarme</button>       
-    </form>   
-    <script type="text/javascript">
-        $("#form-direccion").validate();
-    </script>                   
+        <div class="form-group cont-submit">
+            <label for="exampleInputEmail1"> </label>        
+            <button type="submit" class="btn form-control">Actualizar</button>       
+        </div>
+    </form>                  
+    <script type="text/javascript">    
+        $("#form-direccion").validate({
+            rules: {
+                direccion: {
+                    required: true
+                },
+                pais: {
+                    required: true
+                },
+                provincia: {
+                    required: true
+                },
+                localidad: {
+                    required: true
+                },
+                inputTelefono: {
+                    required: true
+                },                                                                
+                inputCp: {
+                    required: true,
+                    digits: true
+                }
+            }
+        });    
+    </script>      
 </div>

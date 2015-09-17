@@ -24,7 +24,7 @@
                 <div class="mi-cuenta-content">
                     <div class="inner">
                         <div class="mi-cuenta-navegacion">
-                            <div class="mi-cuenta-navegacion-item">
+                            <div class="mi-cuenta-navegacion-item color-favoritos">
                                 <a href="favoritos.php">
                                     <img src="images/mi-cuenta-favoritos.png" class="img-responsive"/>
                                 </a>
@@ -32,7 +32,7 @@
                                     FAVORITOS
                                 </a>                                
                             </div>
-                            <div class="mi-cuenta-navegacion-item">
+                            <div class="mi-cuenta-navegacion-item color-tickets">
                                 <a href="tickets.php">
                                     <img src="images/mi-cuenta-tickets.png" class="img-responsive"/>
                                 </a>
@@ -40,7 +40,8 @@
                                     TICKETS
                                 </a>                                 
                             </div>
-                            <div class="mi-cuenta-navegacion-item">
+                            <?php /*
+                            <div class="mi-cuenta-navegacion-item color-resenas">
                                <a href="resena.php">
                                    <img src="images/mi-cuenta-resena.png" class="img-responsive"/>
                                 </a>
@@ -48,6 +49,7 @@
                                     RESEÑAS
                                 </a>                                 
                             </div>
+                            */?>
                             <div class="clearfix"></div>
                         </div>
                         <?php include('inc/mi-cuenta-form.php');?>

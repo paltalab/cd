@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 @import url(https://fonts.googleapis.com/css?family=Sniglet:400,800);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
@@ -2164,7 +2165,7 @@
 .hvr-trim:before {
   content: '';
   position: absolute;
-  border: #ffffff solid 4px;
+  border: white solid 4px;
   top: 4px;
   left: 4px;
   right: 4px;
@@ -4680,9 +4681,9 @@
   width: 0;
   top: 0;
   left: 0;
-  background: #ffffff;
+  background: white;
   /* IE9 */
-  background: linear-gradient(135deg, #ffffff 45%, #aaaaaa 50%, #cccccc 56%, #ffffff 80%);
+  background: linear-gradient(135deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffffff', endColorstr='#000000');
   /*For IE7-8-9*/
   z-index: 1000;
@@ -4718,9 +4719,9 @@
   width: 0;
   top: 0;
   right: 0;
-  background: #ffffff;
+  background: white;
   /* IE9 */
-  background: linear-gradient(225deg, #ffffff 45%, #aaaaaa 50%, #cccccc 56%, #ffffff 80%);
+  background: linear-gradient(225deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -4753,9 +4754,9 @@
   width: 0;
   bottom: 0;
   right: 0;
-  background: #ffffff;
+  background: white;
   /* IE9 */
-  background: linear-gradient(315deg, #ffffff 45%, #aaaaaa 50%, #cccccc 56%, #ffffff 80%);
+  background: linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -4788,9 +4789,9 @@
   width: 0;
   bottom: 0;
   left: 0;
-  background: #ffffff;
+  background: white;
   /* IE9 */
-  background: linear-gradient(45deg, #ffffff 45%, #aaaaaa 50%, #cccccc 56%, #ffffff 80%);
+  background: linear-gradient(45deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -4803,7 +4804,6 @@
   width: 25px;
   height: 25px;
 }
-@charset "UTF-8";
 /*
 
 Animate.less

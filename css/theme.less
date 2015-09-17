@@ -367,30 +367,114 @@ MI CUENTA
     .contacto-content;
 }
 .mi-cuenta-navegacion{
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     .mi-cuenta-navegacion-item{
-        width: 33%;
+        width: 50%;
         float: left;
         text-align: center;
         img{
             margin: 0 auto;
         }
+        @media (max-width:400px){
+            width: 100%;
+        }
+    }
+    .color-favoritos{
+        .float-shadow;
+        a{
+            color:@color-favoritos;
+        }
+    }
+    .color-tickets{
+        .float-shadow;
+        a{
+            color:@color-tickets;
+        }
+    }
+    .color-resenas{
+        .float-shadow;
+        a{
+            color: @color-resenas;
+        }
     }
 }
-
+.mi-cuenta-form{
+    position: relative;
+    padding: 40px 0;
+    &:before{
+        position: absolute;
+        top: 0;
+        left:50%;
+        bottom:0;
+        height: 100%;
+        width: 1px;
+        background: @input-border;
+        content:"";
+        @media (max-width:992px){
+            display:none;
+        }   
+    }
+    &:after{
+        position: absolute;
+        top: 0;
+        left:-15px;        
+        height: 1px;
+        width: 100%;
+        background: @input-border;
+        content:"";
+        padding-left:15px;
+        padding-right:15px;
+        @media (max-width:992px){
+            display:none;
+        }    
+    }
+}
 .cambiar-password{
     .inicio-session;
     .title{
         font-size: 20px;
     }
 }
-.cambiar-password{
+.cambiar-direccion{
       .inicio-session;
+      .basic-select; 
       max-width: 510px;
-      .form-group{
+      .form-group{ 
           width: 100%;
+          padding: 5px 0;
+      }
+      .form-inline .form-control{
+        vertical-align: top;
       }
       label{
           width: 35%;
+            font-size: 24px;
+            .quick-bold;          
+          &.error{
+            width: 100%;
+          }
+          @media (max-width:767px){
+            width: 100%;
+          }
+      } 
+      .form-inline select,
+      .form-inline input{
+        height: 40px;
+        border:solid 2px @input-border;
+        width: 60%;
+        font-size: 24px;
+        .quick-bold;
+        color: @texto-bread;
+          @media (max-width:767px){
+            width: 100%;
+          }        
+      }
+      .cont-submit{
+        text-align: center;
+      }
+      button{
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
       }
 }

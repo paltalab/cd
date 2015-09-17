@@ -1,26 +1,23 @@
 <div class="cambiar-password">
     <div class="title">CAMBIAR CONTRASEÑA</div>    
     <form id="form-password">
-        <div class="form-group">                            
-            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre" required>
-        </div>                 
-        <div class="form-group">           
-            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        <div class="form-group">            
+            <input type="password" class="form-control" id="passold" name="passold" placeholder="Contraseña Actual">
         </div>
         <div class="form-group">            
-            <input type="password" class="form-control" id="pass" name="pass" placeholder="Contraseña">
+            <input type="password" class="form-control" id="pass" name="pass" placeholder="Nueva Contraseña">
         </div>
         <div class="form-group">           
-            <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Contraseña">
+            <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Nueva Contraseña">
         </div> 
         <button type="submit" class="btn form-control">Registrarme</button>       
     </form>   
     <script type="text/javascript">
         $("#form-password").validate({
             rules: {
-                email: {
+                passold: {
                     required: true,
-                    email: true
+                    verificaPasswordVieja: true
                 },
                 pass: {
                     required: true,

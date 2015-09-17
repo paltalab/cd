@@ -118,8 +118,21 @@ function removerFilaCarrito(element){
 /*******************************************************************************
 MANEJO DE FORMULARIOS
 *******************************************************************************/
+agregarValidacionPasswordVieja();
 agregarValidacionPassword();
 agregarValidacionEmail();
+function agregarValidacionPasswordVieja(){
+    $.validator.addMethod(
+            "verificaPasswordVieja",
+            function (value, element) {
+                if (value=="vieja") {
+                    return true;
+                }
+                return false;
+            },
+            "La contraseña no concuerda, prueba de nuevo"
+            );
+}
 function agregarValidacionPassword(){
     $.validator.addMethod(
             "verificaPassword",
