@@ -13478,3 +13478,202 @@ FAQ
   font-size: 15px;
   color: #555555;
 }
+/*******************************************************************************
+Checkout
+*******************************************************************************/
+.checkout-content {
+  background: #FFF;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  padding: 18px;
+  position: relative;
+}
+.checkout-content input[type="text"],
+.checkout-content input[type="email"],
+.checkout-content input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.checkout-content input[type="text"]::-webkit-input-placeholder,
+.checkout-content input[type="email"]::-webkit-input-placeholder,
+.checkout-content input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.checkout-content input[type="text"]:-moz-placeholder,
+.checkout-content input[type="email"]:-moz-placeholder,
+.checkout-content input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.checkout-content input[type="text"]::-moz-placeholder,
+.checkout-content input[type="email"]::-moz-placeholder,
+.checkout-content input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.checkout-content input[type="text"]:-ms-input-placeholder,
+.checkout-content input[type="email"]:-ms-input-placeholder,
+.checkout-content input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.checkout-content button {
+  height: 44px;
+  line-height: 24px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.checkout-content button:hover,
+.checkout-content button:focus,
+.checkout-content button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.checkout-content button:hover {
+  color: #816fca;
+}
+.checkout-content button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.checkout-content button.suave-button:hover {
+  color: #816fca;
+}
+.checkout-content button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.checkout-content button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.checkout-content button.invertido-button:hover,
+.checkout-content button.invertido-button:focus,
+.checkout-content button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.checkout-content button.invertido-button:hover {
+  color: #FFF;
+}
+.checkout-content .checkbox {
+  font-size: 11px;
+}
+.checkout-content .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.checkout-content textarea {
+  height: 160px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.checkout-content textarea::-webkit-input-placeholder {
+  color: #e8e1d5;
+}
+.checkout-content textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e8e1d5;
+}
+.checkout-content textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e8e1d5;
+}
+.checkout-content textarea:-ms-input-placeholder {
+  color: #e8e1d5;
+}
+.checkout-content .texto-descripcion {
+  padding: 20px 80px;
+}
+@media (max-width: 992px) {
+  .checkout-content .texto-descripcion {
+    padding: 20px;
+    font-size: 13px;
+  }
+}
+.checkout-content .form-contacto {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.checkout-content-direccion {
+  padding-bottom: 30px;
+}
+.checkout-content-productos {
+  margin-left: -18px;
+  margin-right: -18px;
+  border-top: solid 1px #e8e1d5;
+  padding-top: 10px;
+}
+.checkout-content-productos .title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  color: #45413e;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  padding: 25px 0;
+}
+.checkout-content-detalle {
+  margin-left: -18px;
+  margin-right: -18px;
+  border-bottom: solid 1px #e8e1d5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
