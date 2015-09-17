@@ -40,10 +40,10 @@
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
                         </div>
                     </div>
-                </div>
-                <hr/>
+                </div>                
             </div>
-        </div>         
+        </div>        
+        <div class="separador-resena"></div>
         <?php endfor;?>
 
 
