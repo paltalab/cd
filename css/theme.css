@@ -8328,7 +8328,7 @@ label.error {
 }
 .basic-button button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -10263,7 +10263,7 @@ LOGIN
 }
 .inicio-session button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -10451,7 +10451,7 @@ LOGIN
 }
 .inicio-registro button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -10599,7 +10599,7 @@ CONTACTO
 }
 .contacto-content button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -10772,7 +10772,7 @@ FAVORITOS
 }
 .favoritos-content button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -11101,7 +11101,7 @@ CARRITO
 }
 .carrito-content button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -11807,7 +11807,7 @@ PRODUCTO
 }
 .producto-detalle-top .content-agregar-carrito button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -11931,7 +11931,7 @@ PRODUCTO
 }
 .producto-detalle-top .content-agregar-favoritos button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -12173,7 +12173,7 @@ MI CUENTA
 }
 .mi-cuenta-content button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -12590,7 +12590,7 @@ MI CUENTA
 }
 .cambiar-password button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -12782,7 +12782,7 @@ MI CUENTA
 }
 .cambiar-direccion button {
   height: 44px;
-  line-height: 32px;
+  line-height: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
@@ -12955,4 +12955,171 @@ MI CUENTA
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
+}
+/*******************************************************************************
+MIS TICKETS
+*******************************************************************************/
+.mis-tickets-row {
+  padding-bottom: 22px;
+}
+@media (max-width: 767px) {
+  .mis-tickets-row {
+    margin: 5px 2%;
+    border: solid 1px #e8e1d5;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+    padding: 10px;
+    width: 46%;
+    float: left;
+  }
+}
+.mis-tickets-row .fav-imagen img {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.mis-tickets-row .fav-imagen img:hover,
+.mis-tickets-row .fav-imagen img:focus,
+.mis-tickets-row .fav-imagen img:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mis-tickets-row .fav-precio {
+  padding-top: 18px;
+  color: #45413d;
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+}
+@media (max-width: 992px) {
+  .mis-tickets-row .fav-precio {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+}
+.mis-tickets-row .fav-botones {
+  padding-top: 18px;
+}
+@media (max-width: 992px) {
+  .mis-tickets-row .fav-botones {
+    padding-top: 5px;
+  }
+}
+.mis-tickets-row .fav-botones a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  margin: 0 5px;
+}
+.mis-tickets-row .fav-botones .favorito-mas {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background: url(../images/icon-mas.png) no-repeat;
+}
+.mis-tickets-row .fav-botones .favorito-mas:hover,
+.mis-tickets-row .fav-botones .favorito-mas:focus,
+.mis-tickets-row .fav-botones .favorito-mas:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.mis-tickets-row .fav-botones .favorito-menos {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background: url(../images/icon-cruz.png) no-repeat;
+}
+.mis-tickets-row .fav-botones .favorito-menos:hover,
+.mis-tickets-row .fav-botones .favorito-menos:focus,
+.mis-tickets-row .fav-botones .favorito-menos:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.mis-tickets-row .fav-descripcion {
+  padding-top: 18px;
+}
+@media (max-width: 992px) {
+  .mis-tickets-row .fav-descripcion {
+    padding-top: 5px;
+  }
+}
+.mis-tickets-row .fav-descripcion .titulo {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  color: #45413d;
+}
+@media (max-width: 992px) {
+  .mis-tickets-row .fav-descripcion .titulo {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .mis-tickets-row .fav-descripcion .titulo {
+    font-size: 16px;
+  }
+}
+.mis-tickets-row .fav-descripcion .precio {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  color: #bdc3c7;
+}
+@media (max-width: 992px) {
+  .mis-tickets-row .fav-descripcion .precio {
+    font-family: 'Sniglet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+  }
+}
+.mis-tickets-row .fav-cantidad {
+  padding-top: 18px;
+}
+@media (max-width: 992px) {
+  .mis-tickets-row .fav-cantidad {
+    padding-top: 5px;
+  }
+}
+.mis-tickets-row .fav-imagen {
+  padding-top: 18px;
+}
+.mis-tickets-row .fav-imagen img:hover,
+.mis-tickets-row .fav-imagen img:focus,
+.mis-tickets-row .fav-imagen img:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }

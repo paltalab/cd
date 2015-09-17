@@ -10,7 +10,7 @@
         <div class="form-group">           
             <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Nueva Contraseña">
         </div> 
-        <button type="submit" class="btn form-control">Registrarme</button>       
+        <button type="submit" class="btn form-control">Actualizar</button>       
     </form>   
     <script type="text/javascript">
         $("#form-password").validate({
