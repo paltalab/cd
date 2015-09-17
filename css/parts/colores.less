@@ -1,4 +1,6 @@
-
+@import "../libs/prefixer";
+@import "../libs/hover/hover";
+@import "../libs/animate";
 //Base
 @body-fondo:#f0ecea;
 @violeta:#816ec9;
@@ -45,7 +47,7 @@
 
 //favoritos
 @texto-precio-claro:#bdc3c7;
-
+@texto-autor:#a8a5a3;
 
 //Fonts
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
@@ -80,4 +82,11 @@
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 700;    
+}
+
+
+.texto-base-claro{
+    .quick;
+    font-size: 15px;
+    color: @texto-claro;
 }

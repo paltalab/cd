@@ -8235,3 +8235,343 @@ body {
   font-size: 15px;
   color: #555555;
 }
+label.error {
+  text-align: center;
+  font-size: 12px;
+  color: #c3055a;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+}
+.form-title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  color: #45413e;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  padding: 25px 0;
+}
+.basic-checbox .checkbox {
+  font-size: 11px;
+}
+.basic-checbox .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.basic-input input[type="text"],
+.basic-input input[type="email"],
+.basic-input input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.basic-input input[type="text"]::-webkit-input-placeholder,
+.basic-input input[type="email"]::-webkit-input-placeholder,
+.basic-input input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.basic-input input[type="text"]:-moz-placeholder,
+.basic-input input[type="email"]:-moz-placeholder,
+.basic-input input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.basic-input input[type="text"]::-moz-placeholder,
+.basic-input input[type="email"]::-moz-placeholder,
+.basic-input input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.basic-input input[type="text"]:-ms-input-placeholder,
+.basic-input input[type="email"]:-ms-input-placeholder,
+.basic-input input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.basic-textarea textarea {
+  height: 160px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.basic-textarea textarea::-webkit-input-placeholder {
+  color: #e8e1d5;
+}
+.basic-textarea textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e8e1d5;
+}
+.basic-textarea textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e8e1d5;
+}
+.basic-textarea textarea:-ms-input-placeholder {
+  color: #e8e1d5;
+}
+.basic-button button {
+  height: 44px;
+  line-height: 32px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.basic-button button:hover,
+.basic-button button:focus,
+.basic-button button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.basic-button button:hover {
+  color: #816fca;
+}
+.basic-button button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.basic-button button.suave-button:hover {
+  color: #816fca;
+}
+.basic-button button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.basic-button button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.basic-button button.invertido-button:hover,
+.basic-button button.invertido-button:focus,
+.basic-button button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.basic-button button.invertido-button:hover {
+  color: #FFF;
+}
+.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.suave-button:hover {
+  color: #816fca;
+}
+.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.invertido-button:hover,
+.invertido-button:focus,
+.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.invertido-button:hover {
+  color: #FFF;
+}
+.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.input-cantidad {
+  max-width: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+.input-cantidad input {
+  text-align: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 15px !important;
+}
+.input-cantidad .mas,
+.input-cantidad .menos {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: 22px;
+  text-align: center;
+  color: #45413d;
+}
+.input-cantidad .mas {
+  right: 0;
+}
+.input-cantidad .menos {
+  left: 0;
+}
+.basic-select select {
+  height: 30px;
+  line-height: 30px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 1px #45413d;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background: none;
+  color: #a2a09e;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.basic-select select:hover,
+.basic-select select:focus,
+.basic-select select:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.input-color {
+  border: solid 2px #e8e1d5;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  max-width: 113px;
+  position: relative;
+}
+.input-color #colorTitle {
+  position: absolute;
+  left: 33px;
+  top: 7px;
+  max-width: 60px;
+  overflow: hidden;
+}
+.input-color a.dropdown-toggle {
+  display: block;
+  padding: 7px;
+  position: relative;
+  z-index: 9;
+}
+.input-color a.dropdown-toggle:after {
+  position: absolute;
+  font-family: FontAwesome;
+  top: 3px;
+  right: 5px;
+  content: "\f0dd";
+  color: #e8e1d5;
+}
+.input-color .btn-colorselector,
+.input-color .color-btn {
+  border: solid 1px #e8e1d5;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.link-agregar-favoritos {
+  height: 30px;
+  line-height: 30px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  background: #ff716b;
+  border: none;
+  color: #FFF;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.link-agregar-favoritos:hover,
+.link-agregar-favoritos:focus,
+.link-agregar-favoritos:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.link-agregar-favoritos:hover {
+  color: #FFF;
+}

@@ -1,3 +1,5 @@
+@import "colores"; 
+
 @input-border:#e8e1d5;
 @button-border:#816fca;
 @color-error:#c3055a;
@@ -169,3 +171,51 @@ label.error{
     }
     
 } 
+
+.input-color{
+    border:solid 2px @input-border;
+    .border-radius(10px); 
+    max-width: 113px;
+    position:relative;
+    #colorTitle{
+        position: absolute;
+        left:33px; 
+        top:7px;
+        max-width:60px;
+        overflow: hidden;
+    }
+    a.dropdown-toggle{
+        display:block;
+        padding: 7px;
+        position: relative;
+        z-index: 9;
+        &:after{
+            position:absolute;
+            font-family: FontAwesome;
+            top:3px;
+            right:5px;
+            content: "\f0dd";
+            color:@input-border;
+        }
+    }
+    .btn-colorselector,.color-btn{
+        border:solid 1px @input-border;
+        .border-radius(50%);
+    }
+}
+
+.link-agregar-favoritos{
+        height:30px;
+        line-height: 30px;
+        .border-radius(10px);            
+        .quick-bold;
+        font-size:12px;        
+        background:@cat-rojo;
+        border:none;
+        color:#FFF;
+        padding: 0 15px;
+        .glow;     
+        &:hover{
+            color:#FFF;         
+        }    
+}

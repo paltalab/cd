@@ -76,18 +76,19 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <div class="content-agregar-favoritos">
-                <button class="btn agregar-al-carrito">+ AÑADIR AL CARRITO</button>
+            <div class="content-agregar-carrito">
+                <button class="btn agregar-al-carrito invertido-button">+ AÑADIR AL CARRITO</button>
             </div>            
         </div>
     </div>    
     <div class="row">
         <div class="col-md-12">
             <div class="content-agregar-favoritos">
-                <a href="/favoritos.php">AGREGAR A FAVORITOS</a>
+                <a href="/favoritos.php" class="link-agregar-favoritos"><i class="fa fa-heart-o"></i> AGREGAR A FAVORITOS</a>
             </div>
         </div>
     </div>
+</div>    
     <div class="row">
         <div class="col-md-12">
             <div class="descripcion">
@@ -95,4 +96,3 @@
             </div>
         </div>
     </div>    
-</div>
