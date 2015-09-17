@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 @import url(https://fonts.googleapis.com/css?family=Sniglet:400,800);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+@import url(parts/star-rating.min.css);
+@import url(parts/bootstrap-colorselector.css);
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2
@@ -11606,6 +11608,519 @@ CATEGORIA
 /*******************************************************************************
 PRODUCTO
 *******************************************************************************/
+/* jssor slider arrow navigator skin 05 css */
+/*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        */
+.jssora05l,
+.jssora05r {
+  display: block;
+  position: absolute;
+  /* size of arrow element */
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url(../images/a17.png) no-repeat;
+  overflow: hidden;
+}
+.jssora05l {
+  background-position: -10px -40px;
+}
+.jssora05r {
+  background-position: -70px -40px;
+}
+.jssora05l:hover {
+  background-position: -130px -40px;
+}
+.jssora05r:hover {
+  background-position: -190px -40px;
+}
+.jssora05l.jssora05ldn {
+  background-position: -250px -40px;
+}
+.jssora05r.jssora05rdn {
+  background-position: -310px -40px;
+}
+/* jssor slider thumbnail navigator skin 02 css */
+/*
+        .jssort02 .p            (normal)
+        .jssort02 .p:hover      (normal mouseover)
+        .jssort02 .p.pav        (active)
+        .jssort02 .p.pdn        (mousedown)
+        */
+.jssort02 {
+  position: absolute;
+  /* size of thumbnail navigator container */
+  width: 122px;
+  height: 550px;
+}
+.jssort02 .p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 120px;
+}
+.jssort02 .t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.jssort02 .w {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.jssort02 .c {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 140px;
+  background: url(../images/t01.png) -800px -800px no-repeat;
+  _background: none;
+}
+.jssort02 .pav .c {
+  top: 0px;
+  _top: 0px;
+  left: 0px;
+  _left: 0px;
+  width: 108px;
+  height: 118px;
+  border: #000 0px solid;
+  _border: #fff 2px solid;
+  background-position: 50% 50%;
+}
+.jssort02 .p:hover .c {
+  top: 0px;
+  left: 0px;
+  width: 110px;
+  height: 120px;
+  border: #fff 2px solid;
+  background-position: 50% 50%;
+}
+.jssort02 .p.pdn .c {
+  background-position: 50% 50%;
+  width: 108px;
+  height: 118px;
+  border: #000 2px solid;
+}
+.producto-detalle-top {
+  background: #FFF;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  background-clip: padding-box;
+}
+.producto-detalle-top .imgbig {
+  -webkit-border-radius: 10px 0 0 0;
+  border-radius: 10px 0 0 0;
+  background-clip: padding-box;
+}
+.producto-detalle-top .input-cantidad {
+  float: right;
+}
+.producto-detalle-top .input-cantidad input {
+  border: solid 2px #e8e1d5;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+.producto-detalle-top .input-cantidad .menos,
+.producto-detalle-top .input-cantidad .mas {
+  line-height: 34px;
+}
+.producto-detalle-top .producto-detalle-top-precio {
+  padding: 30px 0 15px 0;
+  text-align: center;
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  color: #45413e;
+  max-width: 380px;
+  margin: 0 auto;
+}
+.producto-detalle-top .producto-detalle-top-pedir {
+  max-width: 270px;
+  margin: 0 auto;
+}
+.producto-detalle-top .descripcion {
+  max-width: 340px;
+  margin: 0 auto;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #45413e;
+}
+.producto-detalle-top .content-agregar-carrito {
+  padding: 25px 0 12px 0;
+}
+.producto-detalle-top .content-agregar-carrito input[type="text"],
+.producto-detalle-top .content-agregar-carrito input[type="email"],
+.producto-detalle-top .content-agregar-carrito input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.producto-detalle-top .content-agregar-carrito input[type="text"]::-webkit-input-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="email"]::-webkit-input-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-carrito input[type="text"]:-moz-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="email"]:-moz-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-carrito input[type="text"]::-moz-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="email"]::-moz-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-carrito input[type="text"]:-ms-input-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="email"]:-ms-input-placeholder,
+.producto-detalle-top .content-agregar-carrito input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-carrito button {
+  height: 44px;
+  line-height: 32px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.producto-detalle-top .content-agregar-carrito button:hover,
+.producto-detalle-top .content-agregar-carrito button:focus,
+.producto-detalle-top .content-agregar-carrito button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.producto-detalle-top .content-agregar-carrito button:hover {
+  color: #816fca;
+}
+.producto-detalle-top .content-agregar-carrito button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-carrito button.suave-button:hover {
+  color: #816fca;
+}
+.producto-detalle-top .content-agregar-carrito button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.producto-detalle-top .content-agregar-carrito button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.producto-detalle-top .content-agregar-carrito button.invertido-button:hover,
+.producto-detalle-top .content-agregar-carrito button.invertido-button:focus,
+.producto-detalle-top .content-agregar-carrito button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.producto-detalle-top .content-agregar-carrito button.invertido-button:hover {
+  color: #FFF;
+}
+.producto-detalle-top .content-agregar-carrito button {
+  display: block !important;
+  width: 100%;
+}
+.producto-detalle-top .content-agregar-favoritos {
+  padding: 25px 0 12px 0;
+  text-align: center;
+}
+.producto-detalle-top .content-agregar-favoritos input[type="text"],
+.producto-detalle-top .content-agregar-favoritos input[type="email"],
+.producto-detalle-top .content-agregar-favoritos input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.producto-detalle-top .content-agregar-favoritos input[type="text"]::-webkit-input-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="email"]::-webkit-input-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-favoritos input[type="text"]:-moz-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="email"]:-moz-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-favoritos input[type="text"]::-moz-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="email"]::-moz-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-favoritos input[type="text"]:-ms-input-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="email"]:-ms-input-placeholder,
+.producto-detalle-top .content-agregar-favoritos input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-favoritos button {
+  height: 44px;
+  line-height: 32px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.producto-detalle-top .content-agregar-favoritos button:hover,
+.producto-detalle-top .content-agregar-favoritos button:focus,
+.producto-detalle-top .content-agregar-favoritos button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.producto-detalle-top .content-agregar-favoritos button:hover {
+  color: #816fca;
+}
+.producto-detalle-top .content-agregar-favoritos button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.producto-detalle-top .content-agregar-favoritos button.suave-button:hover {
+  color: #816fca;
+}
+.producto-detalle-top .content-agregar-favoritos button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.producto-detalle-top .content-agregar-favoritos button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.producto-detalle-top .content-agregar-favoritos button.invertido-button:hover,
+.producto-detalle-top .content-agregar-favoritos button.invertido-button:focus,
+.producto-detalle-top .content-agregar-favoritos button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.producto-detalle-top .content-agregar-favoritos button.invertido-button:hover {
+  color: #FFF;
+}
+.producto-detalle-top .content-agregar-favoritos button {
+  margin: 0 auto;
+}
+.producto-detalle-top-rating {
+  padding: 15px 0;
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+}
+.producto-detalle-top-rating .star-rating.rating-xs.rating-disabled {
+  font-size: 30px;
+  line-height: 30px;
+  cursor: default;
+  display: inline-block;
+}
+.producto-detalle-top-rating .star-rating.rating-xs.rating-disabled .rating-stars:before {
+  text-shadow: none;
+}
+.producto-detalle-top-rating .producto-rating {
+  display: inline-block;
+  line-height: 34px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding-left: 4px;
+}
+.producto-detalle-bottom {
+  background: #FFF;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  background-clip: padding-box;
+  padding: 25px 0 50px 0;
+}
+@media (max-width: 992px) {
+  .producto-detalle-bottom {
+    padding: 25px;
+  }
+}
+.producto-detalle-bottom .nav-tabs {
+  text-align: center;
+  border-bottom: 2px solid #e8e1d5;
+}
+.producto-detalle-bottom .nav-tabs li {
+  float: none;
+  margin-bottom: -2px;
+  display: inline-block;
+}
+.producto-detalle-bottom .nav-tabs li a {
+  border: 2px solid #e8e1d5;
+  border-bottom-color: transparent;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #bdc3c7;
+}
+.producto-detalle-bottom .nav-tabs li a:hover {
+  background: #FFF;
+}
+.producto-detalle-bottom .nav-tabs li.active a {
+  border: 2px solid #e8e1d5;
+  border-bottom-color: transparent;
+  color: #000;
+}
+.producto-detalle-bottom .tabdescripcion {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0 20px 0;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+.producto-detalle-bottom .tabresena {
+  padding-top: 25px;
+}
+.producto-detalle-bottom .tabresena .star-rating.rating-xs.rating-disabled {
+  font-size: 30px;
+  line-height: 30px;
+  cursor: default;
+  display: inline-block;
+}
+.producto-detalle-bottom .tabresena .star-rating.rating-xs.rating-disabled .rating-stars:before {
+  text-shadow: none;
+}
+.producto-detalle-bottom .tabresena .resena-titulo--rating {
+  display: inline-block;
+  line-height: 34px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 4px;
+}
+.producto-detalle-bottom .tabresena .autor {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #a8a5a3;
+  padding: 10px 0;
+}
+.producto-detalle-bottom .tabresena .texto-resenia {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+.producto-detalle-bottom .separador-resena {
+  height: 30px;
+  clear: both;
+}
 /*******************************************************************************
 MI CUENTA
 *******************************************************************************/
@@ -11980,4 +12495,199 @@ MI CUENTA
 }
 .cambiar-password .title {
   font-size: 20px;
+}
+.cambiar-password {
+  max-width: 255px;
+  margin: 0 auto;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  max-width: 510px;
+}
+.cambiar-password a {
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  line-height: 20px;
+}
+.cambiar-password a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: "left, right";
+  transition-property: "left, right";
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.cambiar-password a:hover:before,
+.cambiar-password a:focus:before,
+.cambiar-password a:active:before {
+  left: 0;
+  right: 0;
+}
+.cambiar-password a:hover,
+.cambiar-password a.active {
+  color: #816fca;
+}
+.cambiar-password a:before {
+  background: #816fca;
+}
+.cambiar-password input[type="text"],
+.cambiar-password input[type="email"],
+.cambiar-password input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.cambiar-password input[type="text"]::-webkit-input-placeholder,
+.cambiar-password input[type="email"]::-webkit-input-placeholder,
+.cambiar-password input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password input[type="text"]:-moz-placeholder,
+.cambiar-password input[type="email"]:-moz-placeholder,
+.cambiar-password input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password input[type="text"]::-moz-placeholder,
+.cambiar-password input[type="email"]::-moz-placeholder,
+.cambiar-password input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password input[type="text"]:-ms-input-placeholder,
+.cambiar-password input[type="email"]:-ms-input-placeholder,
+.cambiar-password input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password button {
+  height: 44px;
+  line-height: 32px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.cambiar-password button:hover,
+.cambiar-password button:focus,
+.cambiar-password button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.cambiar-password button:hover {
+  color: #816fca;
+}
+.cambiar-password button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.cambiar-password button.suave-button:hover {
+  color: #816fca;
+}
+.cambiar-password button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.cambiar-password button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.cambiar-password button.invertido-button:hover,
+.cambiar-password button.invertido-button:focus,
+.cambiar-password button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.cambiar-password button.invertido-button:hover {
+  color: #FFF;
+}
+.cambiar-password .checkbox {
+  font-size: 11px;
+}
+.cambiar-password .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.cambiar-password .title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  color: #45413e;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  padding: 25px 0;
+}
+.cambiar-password .footer {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.cambiar-password .form-group {
+  width: 100%;
+}
+.cambiar-password label {
+  width: 35%;
 }

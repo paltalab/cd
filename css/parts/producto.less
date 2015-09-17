@@ -1,6 +1,6 @@
 @import "jssor"; 
-@import url(star-rating.min.css);
-@import url(bootstrap-colorselector.css);
+@import url(parts/star-rating.min.css);
+@import url(parts/bootstrap-colorselector.css);
 
 
 .producto-detalle-top{
@@ -28,29 +28,6 @@
         color:@texto-bread;
         max-width:380px;
         margin:0 auto;        
-    }
-    .producto-detalle-top-rating{
-        padding:15px 0;
-        max-width:380px;
-        margin:0 auto;
-        text-align:center;
-        .star-rating.rating-xs.rating-disabled{
-            font-size:30px;
-            line-height: 30px;
-            cursor:default;
-            display:inline-block;
-            .rating-stars:before{
-                text-shadow: none;    
-            }
-
-        }       
-        .producto-rating{
-            display:inline-block;
-            line-height: 34px;
-            .quick-bold;
-            font-size: 24px;
-            padding-left: 4px;
-        }
     }
     .producto-detalle-top-pedir{
         max-width: 270px; margin:0 auto;
@@ -83,14 +60,36 @@
     }    
 
 }
+.producto-detalle-top-rating{
+    padding:15px 0;
+    max-width:380px;
+    margin:0 auto;
+    text-align:center;
+    .star-rating.rating-xs.rating-disabled{
+        font-size:30px;
+        line-height: 30px;
+        cursor:default;
+        display:inline-block;
+        .rating-stars:before{
+            text-shadow: none;    
+        }
 
+    }       
+    .producto-rating{
+        display:inline-block;
+        line-height: 34px;
+        .quick-bold;
+        font-size: 24px;
+        padding-left: 4px;
+    }
+}
 .producto-detalle-bottom{
     background:#FFF;
     .border-radius(0 0 10px 10px);
     padding: 25px 0 50px 0;
 
     @media (max-width:992px){
-      padding: 25px;  
+        padding: 25px;  
     }
     .nav-tabs{
         text-align: center;
@@ -118,7 +117,7 @@
             }
         }
     }
-    
+
     .tabdescripcion{
         max-width: 900px;
         margin: 0 auto;
@@ -127,7 +126,7 @@
     }
     .tabresena{
         padding-top:25px;
-        
+
         .star-rating.rating-xs.rating-disabled{
             font-size:30px;
             line-height: 30px;

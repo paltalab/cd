@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <?php include('inc/login-form.php'); ?>
+                    <?php include('inc/mi-cuenta-direccion.php'); ?>
                 </div>
                 <div class="col-md-6">
                     <?php include('inc/mi-cuenta-password.php'); ?>
