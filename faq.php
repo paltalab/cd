@@ -30,11 +30,12 @@
                                 <div class="titulo">Que Vendemos?</div>                                
                             </div>
                             <div class="col-sm-1 fav-botones">        
-                                <a  class="favorito-mas" 
+                                <a  id="btnfaqId<?php echo $i;?>"
+                                    class="favorito-mas" 
                                     role="button" 
                                     data-toggle="collapse" 
                                     href="#faqId<?php echo $i;?>" 
-                                    aria-expanded="false" 
+                                    aria-expanded="true" 
                                     aria-controls="faqId<?php echo $i;?>"/></a>
                             </div>
                             <div class="col-sm-1"></div>

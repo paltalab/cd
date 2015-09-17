@@ -6,6 +6,7 @@ $(document).ready(function(){
   activarSlider();      //activa slider en el home
   activarPlaceHolder();  //Funcionalidad del Placeholder   
   activarDopdownCategorias(); //Dropdown de Categorias 
+  activarMasMenosFaq();   // + - en FAQ
 });
 
 /*******************************************************************************
@@ -67,6 +68,16 @@ function dropdownMenuMobile(){
   });
       
 }
+
+function activarMasMenosFaq(){
+        $('.faq-row-respuesta').on('show.bs.collapse', function () {
+            $("#btn"+$(this).attr("id")).addClass("abierto");
+        });
+        $('.faq-row-respuesta').on('hide.bs.collapse', function () {
+            $("#btn"+$(this).attr("id")).removeClass("abierto");
+        });    
+}
+ 
 
 /*******************************************************************************
 SLIDER
