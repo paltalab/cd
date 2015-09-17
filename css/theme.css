@@ -11790,3 +11790,194 @@ MI CUENTA
 .mi-cuenta-navegacion .mi-cuenta-navegacion-item img {
   margin: 0 auto;
 }
+.cambiar-password {
+  max-width: 255px;
+  margin: 0 auto;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+.cambiar-password a {
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  line-height: 20px;
+}
+.cambiar-password a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: "left, right";
+  transition-property: "left, right";
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.cambiar-password a:hover:before,
+.cambiar-password a:focus:before,
+.cambiar-password a:active:before {
+  left: 0;
+  right: 0;
+}
+.cambiar-password a:hover,
+.cambiar-password a.active {
+  color: #816fca;
+}
+.cambiar-password a:before {
+  background: #816fca;
+}
+.cambiar-password input[type="text"],
+.cambiar-password input[type="email"],
+.cambiar-password input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.cambiar-password input[type="text"]::-webkit-input-placeholder,
+.cambiar-password input[type="email"]::-webkit-input-placeholder,
+.cambiar-password input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password input[type="text"]:-moz-placeholder,
+.cambiar-password input[type="email"]:-moz-placeholder,
+.cambiar-password input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password input[type="text"]::-moz-placeholder,
+.cambiar-password input[type="email"]::-moz-placeholder,
+.cambiar-password input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password input[type="text"]:-ms-input-placeholder,
+.cambiar-password input[type="email"]:-ms-input-placeholder,
+.cambiar-password input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.cambiar-password button {
+  height: 44px;
+  line-height: 32px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.cambiar-password button:hover,
+.cambiar-password button:focus,
+.cambiar-password button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.cambiar-password button:hover {
+  color: #816fca;
+}
+.cambiar-password button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.cambiar-password button.suave-button:hover {
+  color: #816fca;
+}
+.cambiar-password button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.cambiar-password button.invertido-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.cambiar-password button.invertido-button:hover,
+.cambiar-password button.invertido-button:focus,
+.cambiar-password button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.cambiar-password button.invertido-button:hover {
+  color: #FFF;
+}
+.cambiar-password .checkbox {
+  font-size: 11px;
+}
+.cambiar-password .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.cambiar-password .title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  color: #45413e;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  padding: 25px 0;
+}
+.cambiar-password .footer {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.cambiar-password .title {
+  font-size: 20px;
+}
