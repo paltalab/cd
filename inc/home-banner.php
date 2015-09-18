@@ -4,8 +4,8 @@
             <div class="col-xs-12 col-md-9 pull-right">
                 <div class="st-banner">
                     <ul class="rslides">
-                        <li><img src="images/banner-1.jpg" class="img-responsive" /></li>
-                        <li><img src="images/banner-2.jpg" class="img-responsive" /></li>
+                        <li><a href="categoria.php"><img src="images/banner-1.jpg" class="img-responsive" /></a></li>
+                        <li><a href="categoria.php"><img src="images/banner-2.jpg" class="img-responsive" /></a></li>
                     </ul>                
                 </div> 
             </div>

@@ -8627,6 +8627,27 @@ label.error {
 .link-agregar-favoritos:hover {
   color: #FFF;
 }
+.has-js .label_check,
+.has-js .label_radio {
+  padding-left: 34px;
+}
+.has-js .label_radio {
+  background: url(../images/radio-off.png) no-repeat left center;
+}
+.has-js .label_check {
+  background: url(../images/radio-off.png) no-repeat left center;
+}
+.has-js label.c_on {
+  background: url(../images/radio-on.png) no-repeat left center;
+}
+.has-js label.r_on {
+  background: url(../images/radio-on.png) no-repeat left center;
+}
+.has-js .label_check input,
+.has-js .label_radio input {
+  position: absolute;
+  left: -9999px;
+}
 /*******************************************************************************
 BASICOS
 *******************************************************************************/
@@ -9075,6 +9096,9 @@ MENU
 .carrito {
   padding-top: 5px;
 }
+.carrito .cuenta {
+  padding-top: 0;
+}
 .carrito .precio {
   font-family: 'Sniglet';
   font-style: normal;
@@ -9154,7 +9178,7 @@ MENU
   width: 100%;
 }
 .menu-overlay-categorias ul {
-  padding-left: 25px;
+  padding-left: 0;
 }
 .menu-overlay-categorias ul,
 .menu-overlay-categorias li {
@@ -9635,6 +9659,9 @@ HOME
   right: 55%;
   margin-right: 1px;
 }
+.destacado-box-imagen .overlay a.left:hover i {
+  color: #83d28b;
+}
 .destacado-box-imagen .overlay a.right {
   left: 55%;
   margin-left: 1px;
@@ -9733,7 +9760,6 @@ HOME
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
-  position: relative;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -9742,6 +9768,7 @@ HOME
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 .categoria-item:before,
 .categoria-item:after {
@@ -9776,24 +9803,6 @@ HOME
 .categoria-item:focus:after,
 .categoria-item:active:after {
   opacity: 1;
-}
-.categoria-item:hover,
-.categoria-item:focus,
-.categoria-item:active {
-  -webkit-animation-name: hvr-bob-float, hvr-bob;
-  animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
-  -webkit-animation-timing-function: ease-out, ease-in-out;
-  animation-timing-function: ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1, infinite;
-  animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-direction: normal, alternate;
-  animation-direction: normal, alternate;
 }
 .categoria-item a {
   color: #FFF;
@@ -10180,6 +10189,7 @@ FOOTER BOXES
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 .form_suscripcion_email button:before {
+  background: #7e41b5;
   -webkit-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
   background-clip: padding-box;
@@ -11610,18 +11620,33 @@ CARRITO
   font-size: 20px;
   padding: 4px 0;
 }
+.carrito-total-detalle .carrito-total-valor.total {
+  color: #816ec9;
+}
 .carrito-total-detalle .radio {
   margin-top: 0;
 }
 .carrito-total-detalle .radio label {
+  display: block;
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 400;
+}
+.carrito-total-detalle .radio label pa input {
+  margin: 0;
+  left: 0;
 }
 .carrito-total-detalle .radio label strong {
   font-family: 'Sniglet';
   font-style: normal;
   font-weight: 800;
+  display: inline-block;
+  width: 44%;
+}
+.carrito-total-detalle .radio label span {
+  text-align: left;
+  display: inline-block;
+  width: 52%;
 }
 /*******************************************************************************
 CATEGORIA
@@ -12352,6 +12377,188 @@ PRODUCTO
   height: 30px;
   clear: both;
 }
+.form-resena input[type="text"],
+.form-resena input[type="email"],
+.form-resena input[type="password"] {
+  height: 40px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.form-resena input[type="text"]::-webkit-input-placeholder,
+.form-resena input[type="email"]::-webkit-input-placeholder,
+.form-resena input[type="password"]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.form-resena input[type="text"]:-moz-placeholder,
+.form-resena input[type="email"]:-moz-placeholder,
+.form-resena input[type="password"]:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: #e8e1d5;
+}
+.form-resena input[type="text"]::-moz-placeholder,
+.form-resena input[type="email"]::-moz-placeholder,
+.form-resena input[type="password"]::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: #e8e1d5;
+}
+.form-resena input[type="text"]:-ms-input-placeholder,
+.form-resena input[type="email"]:-ms-input-placeholder,
+.form-resena input[type="password"]:-ms-input-placeholder {
+  text-align: center;
+  color: #e8e1d5;
+}
+.form-resena button {
+  height: 44px;
+  line-height: 24px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  background: none;
+  border: solid 2px #816fca;
+  color: #816fca;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.form-resena button:hover,
+.form-resena button:focus,
+.form-resena button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.form-resena button:hover {
+  color: #816fca;
+}
+.form-resena button.suave-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+  border: solid 2px #e8e1d5;
+  color: #e8e1d5;
+}
+.form-resena button.suave-button:hover {
+  color: #816fca;
+}
+.form-resena button.chico-button {
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.form-resena button.invertido-button-lg {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.form-resena button.invertido-button-lg:hover,
+.form-resena button.invertido-button-lg:focus,
+.form-resena button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.form-resena button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.form-resena button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.form-resena button.invertido-button:hover,
+.form-resena button.invertido-button:focus,
+.form-resena button.invertido-button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.form-resena button.invertido-button:hover {
+  color: #FFF;
+}
+.form-resena .checkbox {
+  font-size: 11px;
+}
+.form-resena .checkbox label {
+  white-space: nowrap;
+  line-height: 20px;
+}
+.form-resena textarea {
+  height: 160px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: solid 2px #e8e1d5;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}
+.form-resena textarea::-webkit-input-placeholder {
+  color: #e8e1d5;
+}
+.form-resena textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e8e1d5;
+}
+.form-resena textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e8e1d5;
+}
+.form-resena textarea:-ms-input-placeholder {
+  color: #e8e1d5;
+}
+.form-resena .star-rating.rating-xs {
+  font-size: 30px;
+  line-height: 30px;
+  cursor: default;
+  display: inline-block;
+}
+.form-resena .star-rating.rating-xs .rating-stars:before {
+  text-shadow: none;
+}
 /*******************************************************************************
 MI CUENTA
 *******************************************************************************/
@@ -12575,44 +12782,18 @@ MI CUENTA
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-}
-.mi-cuenta-navegacion .color-favoritos:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: "transform, opacity";
-  transition-property: "transform, opacity";
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 .mi-cuenta-navegacion .color-favoritos:hover,
 .mi-cuenta-navegacion .color-favoritos:focus,
 .mi-cuenta-navegacion .color-favoritos:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-.mi-cuenta-navegacion .color-favoritos:hover:before,
-.mi-cuenta-navegacion .color-favoritos:focus:before,
-.mi-cuenta-navegacion .color-favoritos:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
 .mi-cuenta-navegacion .color-favoritos a {
   color: #ff9994;
@@ -12626,44 +12807,18 @@ MI CUENTA
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-}
-.mi-cuenta-navegacion .color-tickets:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: "transform, opacity";
-  transition-property: "transform, opacity";
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 .mi-cuenta-navegacion .color-tickets:hover,
 .mi-cuenta-navegacion .color-tickets:focus,
 .mi-cuenta-navegacion .color-tickets:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-.mi-cuenta-navegacion .color-tickets:hover:before,
-.mi-cuenta-navegacion .color-tickets:focus:before,
-.mi-cuenta-navegacion .color-tickets:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
 .mi-cuenta-navegacion .color-tickets a {
   color: #45413d;
@@ -13245,7 +13400,7 @@ MI CUENTA
   font-size: 24px;
   font-family: 'Quicksand';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   color: #45413e;
 }
 @media (max-width: 767px) {
@@ -13253,6 +13408,9 @@ MI CUENTA
   .cambiar-direccion .form-inline input {
     width: 100%;
   }
+}
+.cambiar-direccion .form-inline select {
+  font-size: 22px;
 }
 .cambiar-direccion .cont-submit {
   text-align: center;

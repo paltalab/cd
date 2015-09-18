@@ -23,11 +23,15 @@
                 </div>
             </div>
             <div class="col-xs-8 col-sm-7 col-md-5 ">
-                <div class="cuenta pull-left">
+                <?php /*<div class="cuenta pull-left">
                     <a href="/login.php" class="link-usuario"></a>
                     <a href="/favoritos.php" class="link-heart"></a>
-                </div>
+                </div>*/?>
                 <div class="carrito pull-right">
+                    <span class="cuenta pull-left">
+                        <a href="/login.php" class="link-usuario"></a>
+                    
+                    </span>
                     <span class="precio">$9999.99</span>
                     <a href="/carrito.php" class="link-carrito"><span>2</span></a>
                 </div>
@@ -72,7 +76,7 @@
                         <li><a href="#" class="">Alcohol</a></li> 
                         <li><a href="#" class="">Art</a></li> 
                         <li><a href="#" class="">Books</a></li> 
-                        <li><a href="#" class="active">Drink</a></li> 
+                        <li><a href="#" class="">Drink</a></li> 
                         <li><a href="#" class="">Electronics</a></li> 
                         <li><a href="#" class="">Flowers & Plants</a></li> 
                     </ul>
@@ -103,7 +107,7 @@
                         <li><a href="#" class="">Drink</a></li> 
                         <li><a href="#" class="">Electronics</a></li> 
                         <li><a href="#" class="">Flowers & Plants</a></li> 
-                        <li><a href="#" class="active">Accessories</a></li>                                
+                        <li><a href="#" class="">Accessories</a></li>                                
                         <li><a href="#" class="">Alcohol</a></li> 
                         <li><a href="#" class="">Art</a></li> 
                         <li><a href="#" class="">Books</a></li> 

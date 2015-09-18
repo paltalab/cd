@@ -7,7 +7,9 @@ $(document).ready(function(){
   activarPlaceHolder();  //Funcionalidad del Placeholder   
   activarDopdownCategorias(); //Dropdown de Categorias 
   activarMasMenosFaq();   // + - en FAQ
-  activarMasMenosFormasDePago();   // + - en FAQ
+  activarMasMenosFormasDePago();   // + - en CEHCKOUT
+   $('[data-toggle="tooltip"]').tooltip();  //ToolTips
+  activarFancyCheckBox(); //Radio And Checks
 });
 
 /*******************************************************************************
@@ -42,6 +44,32 @@ $(window).resize(function(){
 /*******************************************************************************
 FUNCIONES BASICAS
 *******************************************************************************/
+function setupLabel() {
+        if ($('.label_check input').length) {
+            $('.label_check').each(function(){ 
+                $(this).removeClass('c_on');
+            });
+            $('.label_check input:checked').each(function(){ 
+                $(this).parent('label').addClass('c_on');
+            });                
+        };
+        if ($('.label_radio input').length) {
+            $('.label_radio').each(function(){ 
+                $(this).removeClass('r_on');
+            });
+            $('.label_radio input:checked').each(function(){ 
+                $(this).parent('label').addClass('r_on');
+            });
+        };
+};
+function activarFancyCheckBox(){
+        $('body').addClass('has-js');
+        $('.label_check, .label_radio').click(function(){
+            setupLabel();
+        });
+        setupLabel();   
+}
+
 function activarDopdownCategorias(){
     $('.dropdown-categorias').click(function(e){
         e.preventDefault();        

@@ -20,7 +20,7 @@
         $ 659.55
     </div>
     <div class="col-sm-1 fav-botones">        
-        <a href="javascript:void(0);" class="favorito-menos" onclick="removerFilaCarrito(this);"/></a>
+        <a href="javascript:void(0);" class="favorito-menos" onclick="removerFilaCarrito(this);"  data-toggle="tooltip" data-placement="top" title="Quitar del Carrito"/></a>
     </div>
 </div>
 <?php endfor;?>

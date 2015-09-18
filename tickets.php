@@ -36,7 +36,8 @@
                                 $ 659.55
                             </div>
                             <div class="col-sm-1 fav-botones">        
-                                <a href="javascript:void(0);" class="favorito-mas"/></a>
+                                <a href="https://google.com/" target="_blank" class="favorito-mas"
+                                 data-toggle="tooltip" data-placement="top" title="Abrir ticket"/></a>
                             </div>
                             <div class="col-sm-1"></div>
                         </div>

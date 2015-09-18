@@ -14,8 +14,8 @@
                             <div class="destacado-box-imagen">                            
                                 <img src="images/home-producto.jpg" class="img-responsive" />
                                 <div class="overlay">
-                                    <a href="#" class="left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="right"><i class="fa fa-heart-o"></i></a>                      
+                                    <a href="#" class="left" data-toggle="tooltip" data-placement="top" title="Agregar al Carrito"><i class="fa fa-plus"></i></a>
+                                    <a href="#" class="right" data-toggle="tooltip" data-placement="top" title="Agregar a Favoritos"><i class="fa fa-heart-o"></i></a>                      
                                 </div>
                             </div>
                             <div class="destacado-box-descripcion">

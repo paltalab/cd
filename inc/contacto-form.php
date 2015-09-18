@@ -1,29 +1,26 @@
 <div class="form-contacto">    
     <form id="form-contacto">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">                            
-                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
                 </div>                     
             </div>
-            <div class="col-md-6">
-                <div class="form-group">                            
-                    <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Apellido" required>
-                </div>                     
-            </div>
-        </div>    
+        </div>          
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">                            
                     <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                 </div>                     
             </div>
-            <div class="col-md-6">
+        </div> 
+        <div class="row">
+            <div class="col-md-12">
                 <div class="form-group">                            
                     <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" required>
                 </div>                     
             </div>
-        </div>   
+        </div>           
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">                            
@@ -40,9 +37,6 @@
         $("#form-contacto").validate({
             rules: {
                 nombre: {
-                    required: true,
-                },
-                apellido: {
                     required: true,
                 },
                 email: {

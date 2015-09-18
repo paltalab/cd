@@ -1,11 +1,12 @@
         <div class="form-group">
-            <label for="direccion1">Dirección 1:</label>
+            <label for="direccion1">Dirección :</label>
             <input type="text" name="direccion" class="form-control" id="direccion" value="Virrey Loreto 1254, 3ºA" required>
         </div>  
-        <div class="form-group">
+<?php /*        <div class="form-group">
             <label for="direccion2">Dirección 2:</label>
             <input type="text" name="direcciondos" class="form-control" id="direcciondos" value="-">
         </div>  
+*/?>        
         <div class="form-group">   
             <label for="pais">País:</label>
             <input type="text" name="pais" class="form-control" id="pais" value="Argentina" required>

@@ -13,8 +13,8 @@
         $ 659.55
     </div>
     <div class="col-sm-2 fav-botones">
-        <a href="javascript:void(0);" class="favorito-mas"/></a>
-    <a href="javascript:void(0);" class="favorito-menos" onclick="removerFilaFavoritos(this);"/></a>
+        <a href="javascript:void(0);" class="favorito-mas" data-toggle="tooltip" data-placement="top" title="Agregar al Carrito"/></a>
+        <a href="javascript:void(0);" class="favorito-menos" onclick="removerFilaFavoritos(this);"  data-toggle="tooltip" data-placement="top" title="Quitar de Favoritos"/></a>
     </div>
 </div>
 <?php endfor;?>

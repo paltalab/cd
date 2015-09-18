@@ -45,7 +45,45 @@
         </div>        
         <div class="separador-resena"></div>
         <?php endfor;?>
+        
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr/>
+                        <h2 class="title">Dejar Reseña</h2>
+                        <div class="form-resena">    
+                            <form id="form-resena">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> 
+                                            <label></label>                           
+                                             <input id="ratingResena" name="ratingResena" class="ratingResena" data-min="0" data-max="5" data-step="0.1" value="5"  data-symbol="&#xf006;&nbsp;" data-glyphicon="false"  data-rating-class="rating-fa" >
+                                        </div>                     
+                                    </div>
+                                </div>          
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">                            
+                                            <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Título" required>
+                                        </div>                     
+                                    </div>
+                                </div>           
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">                            
+                                            <textarea class="form-control" rows="3" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                                        </div>                     
+                                    </div>
 
+                                </div>               
+                                <button type="submit" class="btn form-control">Publicar</button>         
+                            </form>                       
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>   
 
     </div>
 </div>
@@ -88,3 +126,42 @@
         containerClass: null,
     });
 </script>  
+    <script>
+        $("#ratingResena").rating({
+            stars: 5,
+            glyphicon: true,
+            symbol: null,
+            ratingClass: '',
+            disabled: false,
+            readonly: false,
+            rtl: false,
+            size: 'xs',
+            showClear: false,
+            showCaption: true,
+            defaultCaption: '{rating}',
+            starCaptions: {
+                1: '1',
+                2: '2',
+                3: '3',
+                4: '4',
+                5: '5'
+            },
+            starCaptionClasses: {
+                1: 'label label-danger',
+                2: 'label label-warning',
+                3: 'label label-info',
+                4: 'label label-primary',
+                5: 'label label-success'
+            },
+            clearButton: '<i class="glyphicon glyphicon-minus-sign"></i>',
+            clearButtonTitle: 'Clear',
+            clearButtonBaseClass: 'clear-rating',
+            clearButtonActiveClass: 'clear-rating-active',
+            clearCaption: false,
+            clearCaptionClass: 'label label-default',
+            clearValue: null,
+            captionElement: null,
+            clearElement: null,
+            containerClass: null,
+        });
+    </script>

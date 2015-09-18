@@ -259,18 +259,35 @@ CARRITO
         font-size: 20px;
         text-transform: uppercase;
         padding: 4px 0;
+
     }
     .carrito-total-valor{
         .sniglet-bold;
         font-size: 20px;
         padding: 4px 0;
+        &.total{
+            color:@violeta;    
+        }        
     }
     .radio{
         margin-top:0;
         label{
+            display: block; 
             .quick;
+            pa
+            input{
+                margin:0;
+                left: 0;
+            }
             strong{
                 .sniglet-bold;  
+                display: inline-block;
+                width: 44%;
+            }
+            span{
+                text-align: left;
+                display: inline-block;
+                width: 52%;
             }
         }
     }
@@ -380,13 +397,13 @@ MI CUENTA
         }
     }
     .color-favoritos{
-        .float-shadow;
+        .float;
         a{
             color:@color-favoritos;
         }
     }
     .color-tickets{
-        .float-shadow;
+        .float;
         a{
             color:@color-tickets;
         }
@@ -463,12 +480,15 @@ MI CUENTA
         border:solid 2px @input-border;
         width: 60%;
         font-size: 24px;
-        .quick-bold;
+        .quick;
         color: @texto-bread;
           @media (max-width:767px){
             width: 100%;
           }        
       }
+       .form-inline select{
+        font-size: 22px
+       }
       .cont-submit{
         text-align: center;
       }

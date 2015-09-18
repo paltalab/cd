@@ -15,12 +15,12 @@
         </div> 
         <button type="submit" class="btn form-control">Registrarme</button>
         <div class="checkbox">
-            <label>
+            <label class="label_check" >
                 <input type="checkbox" name="condiciones" value="1" checked="checked"> He leído y acepto los términos y condiciones.
             </label>
         </div>         
         <div class="checkbox">
-            <label>
+            <label  class="label_check" >
                 <input type="checkbox" name="suscripcion" value="1" checked="checked"> Suscribirme al newsletter.
             </label>
         </div>         

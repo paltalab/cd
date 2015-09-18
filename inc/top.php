@@ -12,7 +12,7 @@
             <div class="col-sm-6">
                 <div class="top-menu pull-right wow slideInDown"  data-wow-duration="1s" data-wow-delay="1s">
                     <a href="#" class="primero">Quienes Somos</a>
-                    <a href="contacto.php" class=" active">Contacto</a>               
+                    <a href="contacto.php" class=" ">Contacto</a>               
                     <a href="faq.php" class="ultimo">Faq</a>
                 </div>
             </div>

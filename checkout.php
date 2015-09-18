@@ -56,8 +56,8 @@
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
                                     <div class="row">
-                                    <label>
-                                        <input type="radio"    name="terminos" value="1">
+                                    <label  class="label_radio">
+                                        <input type="radio"    name="terminos" value="1" checked="checked">
                                         He leído y acepto los términos y condiciones.
                                     </label>
                                     <button class="btn invertido-button-lg" >Comprar</button>
