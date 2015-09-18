@@ -27,36 +27,43 @@
                         <div class="checkout-content-direccion">
                         <?php include('inc/checkout-direccion-form.php');?>
                         </div>
-
                         <div class="checkout-content-productos">
                             <div class="row">
-                                <div class="col-sm-10 col-sm-offset-1">                            
-                            <div class="title">Pedido</div>
-                            <?php include('inc/checkout-productos.php'); ?> 
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-10">                            
+                                <div class="title">Pedido</div>
+                                <?php include('inc/checkout-productos.php'); ?> 
                                 </div>
+                                <div class="col-sm-1"></div>
                              </div>                             
                         </div>
                         <div class="checkout-content-detalle">
                             <div class="row">
-                                <div class="col-sm-10 col-sm-offset-1">
+                                <div class="col-sm-5"></div>
+                                <div class="col-sm-6">
                                     <?php include('inc/checkout-detalle.php'); ?> 
                                 </div>
+                                <div class="col-sm-1"></div>
                              </div>   
                         </div>
                         <div class="checkout-content-medios-pagos">
                             <div class="title">MEDIO DE PAGO</div>
-                            <div class="row">
-                                <div class="col-sm-10 col-sm-offset-1">
-                                    <?php include('inc/checkout-pagos.php'); ?> 
-                                </div>
-                             </div>   
+
+                                    <?php include('inc/checkout-pagos.php'); ?>
                         </div>
-                        <div class="checkout-content-medios-pagos">
-                            <div class="title">MEDIO DE PAGO</div>
+                        <div class="checkout-content-medios-pagar">                            
                             <div class="row">
-                                <div class="col-sm-10 col-sm-offset-1">
-                                    <?php include('inc/checkout-detalle.php'); ?> 
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-10">
+                                    <div class="row">
+                                    <label>
+                                        <input type="radio"    name="terminos" value="1">
+                                        He leído y acepto los términos y condiciones.
+                                    </label>
+                                    <button class="btn invertido-button-lg" >Comprar</button>
+                                    </div>
                                 </div>
+                                <div class="col-sm-1"></div>
                              </div>   
                         </div>                        
 

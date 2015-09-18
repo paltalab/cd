@@ -8375,10 +8375,7 @@ label.error {
   line-height: 24px;
   font-size: 15px;
 }
-.basic-button button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.basic-button button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -8394,6 +8391,34 @@ label.error {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.basic-button button.invertido-button-lg:hover,
+.basic-button button.invertido-button-lg:focus,
+.basic-button button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.basic-button button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.basic-button button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .basic-button button.invertido-button:hover,
 .basic-button button.invertido-button:focus,
@@ -8413,10 +8438,7 @@ label.error {
 .suave-button:hover {
   color: #816fca;
 }
-.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -8432,6 +8454,34 @@ label.error {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.invertido-button-lg:hover,
+.invertido-button-lg:focus,
+.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.invertido-button-lg:hover {
+  color: #FFF;
+}
+.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .invertido-button:hover,
 .invertido-button:focus,
@@ -10310,10 +10360,7 @@ LOGIN
   line-height: 24px;
   font-size: 15px;
 }
-.inicio-session button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.inicio-session button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -10329,6 +10376,34 @@ LOGIN
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.inicio-session button.invertido-button-lg:hover,
+.inicio-session button.invertido-button-lg:focus,
+.inicio-session button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.inicio-session button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.inicio-session button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .inicio-session button.invertido-button:hover,
 .inicio-session button.invertido-button:focus,
@@ -10498,10 +10573,7 @@ LOGIN
   line-height: 24px;
   font-size: 15px;
 }
-.inicio-registro button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.inicio-registro button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -10517,6 +10589,34 @@ LOGIN
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.inicio-registro button.invertido-button-lg:hover,
+.inicio-registro button.invertido-button-lg:focus,
+.inicio-registro button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.inicio-registro button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.inicio-registro button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .inicio-registro button.invertido-button:hover,
 .inicio-registro button.invertido-button:focus,
@@ -10646,10 +10746,7 @@ CONTACTO
   line-height: 24px;
   font-size: 15px;
 }
-.contacto-content button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.contacto-content button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -10665,6 +10762,34 @@ CONTACTO
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.contacto-content button.invertido-button-lg:hover,
+.contacto-content button.invertido-button-lg:focus,
+.contacto-content button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.contacto-content button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.contacto-content button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .contacto-content button.invertido-button:hover,
 .contacto-content button.invertido-button:focus,
@@ -10819,10 +10944,7 @@ FAVORITOS
   line-height: 24px;
   font-size: 15px;
 }
-.favoritos-content button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.favoritos-content button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -10838,6 +10960,34 @@ FAVORITOS
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.favoritos-content button.invertido-button-lg:hover,
+.favoritos-content button.invertido-button-lg:focus,
+.favoritos-content button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.favoritos-content button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.favoritos-content button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .favoritos-content button.invertido-button:hover,
 .favoritos-content button.invertido-button:focus,
@@ -11151,10 +11301,7 @@ CARRITO
   line-height: 24px;
   font-size: 15px;
 }
-.carrito-content button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.carrito-content button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -11170,6 +11317,34 @@ CARRITO
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.carrito-content button.invertido-button-lg:hover,
+.carrito-content button.invertido-button-lg:focus,
+.carrito-content button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.carrito-content button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.carrito-content button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .carrito-content button.invertido-button:hover,
 .carrito-content button.invertido-button:focus,
@@ -11860,10 +12035,7 @@ PRODUCTO
   line-height: 24px;
   font-size: 15px;
 }
-.producto-detalle-top .content-agregar-carrito button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.producto-detalle-top .content-agregar-carrito button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -11879,6 +12051,34 @@ PRODUCTO
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.producto-detalle-top .content-agregar-carrito button.invertido-button-lg:hover,
+.producto-detalle-top .content-agregar-carrito button.invertido-button-lg:focus,
+.producto-detalle-top .content-agregar-carrito button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.producto-detalle-top .content-agregar-carrito button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.producto-detalle-top .content-agregar-carrito button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .producto-detalle-top .content-agregar-carrito button.invertido-button:hover,
 .producto-detalle-top .content-agregar-carrito button.invertido-button:focus,
@@ -11984,10 +12184,7 @@ PRODUCTO
   line-height: 24px;
   font-size: 15px;
 }
-.producto-detalle-top .content-agregar-favoritos button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.producto-detalle-top .content-agregar-favoritos button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -12003,6 +12200,34 @@ PRODUCTO
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.producto-detalle-top .content-agregar-favoritos button.invertido-button-lg:hover,
+.producto-detalle-top .content-agregar-favoritos button.invertido-button-lg:focus,
+.producto-detalle-top .content-agregar-favoritos button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.producto-detalle-top .content-agregar-favoritos button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.producto-detalle-top .content-agregar-favoritos button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .producto-detalle-top .content-agregar-favoritos button.invertido-button:hover,
 .producto-detalle-top .content-agregar-favoritos button.invertido-button:focus,
@@ -12226,10 +12451,7 @@ MI CUENTA
   line-height: 24px;
   font-size: 15px;
 }
-.mi-cuenta-content button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.mi-cuenta-content button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -12245,6 +12467,34 @@ MI CUENTA
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.mi-cuenta-content button.invertido-button-lg:hover,
+.mi-cuenta-content button.invertido-button-lg:focus,
+.mi-cuenta-content button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mi-cuenta-content button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.mi-cuenta-content button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .mi-cuenta-content button.invertido-button:hover,
 .mi-cuenta-content button.invertido-button:focus,
@@ -12643,10 +12893,7 @@ MI CUENTA
   line-height: 24px;
   font-size: 15px;
 }
-.cambiar-password button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.cambiar-password button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -12662,6 +12909,34 @@ MI CUENTA
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.cambiar-password button.invertido-button-lg:hover,
+.cambiar-password button.invertido-button-lg:focus,
+.cambiar-password button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.cambiar-password button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.cambiar-password button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .cambiar-password button.invertido-button:hover,
 .cambiar-password button.invertido-button:focus,
@@ -12835,10 +13110,7 @@ MI CUENTA
   line-height: 24px;
   font-size: 15px;
 }
-.cambiar-direccion button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.cambiar-direccion button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -12854,6 +13126,34 @@ MI CUENTA
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.cambiar-direccion button.invertido-button-lg:hover,
+.cambiar-direccion button.invertido-button-lg:focus,
+.cambiar-direccion button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.cambiar-direccion button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.cambiar-direccion button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .cambiar-direccion button.invertido-button:hover,
 .cambiar-direccion button.invertido-button:focus,
@@ -13231,10 +13531,7 @@ FAQ
   line-height: 24px;
   font-size: 15px;
 }
-.faq-content button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.faq-content button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -13250,6 +13547,34 @@ FAQ
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.faq-content button.invertido-button-lg:hover,
+.faq-content button.invertido-button-lg:focus,
+.faq-content button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.faq-content button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.faq-content button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .faq-content button.invertido-button:hover,
 .faq-content button.invertido-button:focus,
@@ -13577,10 +13902,7 @@ Checkout
   line-height: 24px;
   font-size: 15px;
 }
-.checkout-content button.invertido-button {
-  height: 40px;
-  line-height: 24px;
-  font-size: 15px;
+.checkout-content button.invertido-button-lg {
   background: #816fca;
   border: solid 2px #FFF;
   color: #FFF;
@@ -13596,6 +13918,34 @@ Checkout
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
+}
+.checkout-content button.invertido-button-lg:hover,
+.checkout-content button.invertido-button-lg:focus,
+.checkout-content button.invertido-button-lg:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.checkout-content button.invertido-button-lg:hover {
+  color: #FFF;
+}
+.checkout-content button.invertido-button {
+  background: #816fca;
+  border: solid 2px #FFF;
+  color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  height: 40px;
+  line-height: 24px;
+  font-size: 15px;
 }
 .checkout-content button.invertido-button:hover,
 .checkout-content button.invertido-button:focus,
@@ -13654,6 +14004,24 @@ Checkout
 .checkout-content-direccion {
   padding-bottom: 30px;
 }
+.checkout-content-direccion label {
+  vertical-align: top;
+}
+.checkout-content-direccion .texto {
+  display: inline-block;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #45413e;
+}
+.checkout-content-direccion .texto a {
+  text-decoration: underline;
+}
+.checkout-content-direccion textarea {
+  width: 60%;
+  height: 60px;
+}
 .checkout-content-productos {
   margin-left: -18px;
   margin-right: -18px;
@@ -13670,6 +14038,9 @@ Checkout
   text-align: center;
   padding: 25px 0;
 }
+.checkout-content-productos .fav-precio {
+  text-align: right;
+}
 .checkout-content-detalle {
   margin-left: -18px;
   margin-right: -18px;
@@ -13682,6 +14053,7 @@ Checkout
   margin-right: -18px;
   border-bottom: solid 1px #e8e1d5;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 .checkout-content-medios-pagos .title {
   font-family: 'Fredoka One';
@@ -13692,4 +14064,51 @@ Checkout
   font-size: 23px;
   text-align: center;
   padding: 25px 0;
+}
+.checkout-content-medios-pagos label {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #45413e;
+  text-transform: uppercase;
+}
+.checkout-content-medios-pagos .checkout-pagos-detalle {
+  background: #f0ecea;
+  padding: 10px 18px;
+  margin-right: -18px;
+  margin-left: -18px;
+}
+.checkout-content-medios-pagos .checkout-pagos-detalle .fix {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+.checkout-content-medios-pagar {
+  text-align: right;
+  padding: 80px 0 30px 0;
+}
+.checkout-content-medios-pagar label,
+.checkout-content-medios-pagar button {
+  display: inline-block;
+}
+.checkout-content-medios-pagar label {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #45413e;
+}
+.checkout-content-medios-pagar label input {
+  margin-right: 15px;
+}
+.checkout-content-medios-pagar button {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-transform: uppercase;
+  margin-left: 20px;
 }

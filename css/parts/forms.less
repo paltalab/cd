@@ -95,6 +95,9 @@ label.error{
         &.chico-button{
             .chico-button;
         }
+        &.invertido-button-lg{
+            .invertido-button-lg;
+        }
         &.invertido-button{
             .invertido-button;
         }
@@ -110,8 +113,7 @@ label.error{
             color:@button-border;         
         }
 } 
-.invertido-button{
-        .chico-button;
+.invertido-button-lg{        
         background: @button-border;
         border:solid 2px #FFF;
         color:#FFF;
@@ -119,6 +121,10 @@ label.error{
         &:hover{
             color:#FFF;        
         }              
+}
+.invertido-button{
+        .invertido-button-lg;
+        .chico-button;             
 } 
 .chico-button{
         height:40px;

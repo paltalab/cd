@@ -44,8 +44,7 @@ FUNCIONES BASICAS
 *******************************************************************************/
 function activarDopdownCategorias(){
     $('.dropdown-categorias').click(function(e){
-        e.preventDefault();
-        console.log("sds");
+        e.preventDefault();        
         $(this).toggleClass("active");
         $('.menu-overlay-categorias').slideToggle( "slow" );
     });
@@ -79,6 +78,12 @@ function activarMasMenosFaq(){
         });    
 }
 function activarMasMenosFormasDePago(){
+
+        $("input[name='formadepago']").change(function() {
+            $(".checkout-pagos-detalle").slideUp("slow");
+            $($(this).attr("ref")).slideDown("slow");
+        });
+
         $('.checkout-pagos-detalle').on('show.bs.collapse', function () {            
            // $(".checkout-pagos-row input").removeAttr("checked");
             $("input[value='"+$(this).attr("ref")+"']").prop("checked",true);

@@ -3,12 +3,12 @@
                             <div class="col-sm-9">
                             	<div class="radio">
                             		<label>
-                            			<input type="radio"  id="btnpagoIdTransferencia"
-                            				value="1"
-		                                    data-toggle="collapse" 
+                            			<input type="radio"  name="formadepago"
+                                            id="btnpagoIdTransferencia"
+                            				value="1"		                                    
 		                                    ref="#pagoIdTransferencia" 
-		                                    aria-expanded="true" 
-		                                    aria-controls="pagoIdTransferencia">
+                                            checked="checked"
+                                            >
                                      Transferencia Bancaria Directa
                             		</label>
                             	</div>                                
@@ -28,19 +28,17 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                             <div class="col-sm-9">
                             	<div class="radio">
                             		<label>
-                            			<input type="radio"  
+                            			<input type="radio"    name="formadepago"
                             				id="btnpagoIdMercadoPago"
                             				value="2"	                            					                                    
-		                                    ref="#pagoIdMercadoPago" 
-		                                    aria-expanded="false" 
-		                                    aria-controls="pagoIdMercadoPago">
+		                                    ref="#pagoIdMercadoPago">
                                      Mercado Pago
                             		</label>
                             	</div>                                
                             </div>
                             <div class="col-sm-2"></div>
                         </div>
-                        <div class="row checkout-pagos-detalle collapse " id="pagoIdMercadoPago" ref="2">
+                        <div class="row checkout-pagos-detalle collapse" id="pagoIdMercadoPago" ref="2">
                           <div class="fix">
                             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <br/>
@@ -53,13 +51,10 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                             <div class="col-sm-9">
                             	<div class="radio">
                             		<label>
-                            			<input type="radio"  id="btnpagoIdTarjeta"
+                            			<input type="radio"    name="formadepago"
+                                            id="btnpagoIdTarjeta"
                             				value="3"                            			    
-	                            			role="button" 
-		                                    data-toggle="collapse" 
-		                                    ref="#pagoIdTarjeta" 
-		                                    aria-expanded="true" 
-		                                    aria-controls="pagoIdTarjeta">
+		                                    ref="#pagoIdTarjeta">
                                      Tarjeta de Crédito
                             		</label>
                             	</div>                                

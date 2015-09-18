@@ -1,5 +1,5 @@
-                            <div class="row carrito-total-detalle">
-                                <div class="col-md-6 col-sm-offset-6">
+                            <div class=" carrito-total-detalle">
+                                
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="carrito-total-descripcion">Subtotal</div>
@@ -40,5 +40,5 @@
                                             <div class="carrito-total-valor">$849.92</div>
                                         </div>
                                     </div>
-                                </div>
+                                
                             </div>

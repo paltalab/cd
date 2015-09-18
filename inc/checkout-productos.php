@@ -5,7 +5,7 @@
             <img class="img-responsive" src="images/favorito-imagen.png"/>
         </a>
     </div>
-    <div class="col-sm-5 fav-descripcion">
+    <div class="col-sm-6 fav-descripcion">
         <div class="titulo">Hay - About A Lounge Chair AAL 93</div>
         <div class="precio hidden-xs">$ 659.55</div>
     </div>
@@ -16,9 +16,6 @@
     </div>
     <div class="col-sm-2 fav-precio">
         $ 659.55
-    </div>
-    <div class="col-sm-1 fav-botones">        
-        
     </div>
 </div>
 <?php endfor;?>

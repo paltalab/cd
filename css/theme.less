@@ -524,6 +524,22 @@ Checkout
 }
 .checkout-content-direccion{
     padding-bottom: 30px;
+    label{
+        vertical-align: top;
+    }
+    .texto{
+        display: inline-block;
+        .quick;
+        font-size: 18px;
+        color:@texto-bread;
+        a{
+            text-decoration: underline;
+        }
+    }
+    textarea{
+        width: 60%;
+        height: 60px;
+    }
 }
 .checkout-content-productos{
     margin-left: -18px;
@@ -533,6 +549,9 @@ Checkout
     .title{
         .form-title;
     }
+    .fav-precio{
+        text-align: right;
+    }    
 }
 .checkout-content-detalle{
     margin-left: -18px;
@@ -546,7 +565,39 @@ Checkout
     margin-right: -18px;
     border-bottom: solid 1px @input-border;
     padding-top: 10px;
+    padding-bottom: 20px;
     .title{
         .form-title;
     }  
+    label{
+        .quick;
+        font-size: 20px;
+        color: @texto-bread;
+        text-transform: uppercase;
+    }    
+    .checkout-pagos-detalle{
+        .faq-row-respuesta;    
+    }
+    
+}
+.checkout-content-medios-pagar{
+    text-align: right;
+    padding: 80px 0 30px 0;
+    label, button{
+        display: inline-block;
+    }
+    label{
+        .quick;
+        font-size: 16px;
+        color: @texto-bread;
+        input{
+            margin-right: 15px; 
+        }
+    }
+    button{
+        padding-left: 35px;
+        padding-right: 35px;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
 }
