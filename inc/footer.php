@@ -63,8 +63,8 @@
                 </div>
                 <div class="footer-paltalab">
                     <div class="paltalab-logo">
-                        <a href="http://paltalab.com/" class="link-paltalab-logo"  data-toggle="tooltip" data-placement="left" title="PaltaLab: Creative Commerce">
-                            <img class="img-responsive" src="images/paltalab.png" title="PaltaLab: Creative Commerce" />
+                        <a href="http://paltalab.com/" target="_blank" class="link-paltalab-logo">
+                            <img class="img-responsive" src="images/paltalab.png"   data-toggle="tooltip" data-placement="left" title="PaltaLab: Creative Commerce"  />
                         </a>
                     </div>
                 </div>
